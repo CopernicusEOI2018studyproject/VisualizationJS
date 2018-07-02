@@ -3,6 +3,6 @@
 ### How To
 
 - `npm install`
-- `npm run start`
+- `npm start`
 
 App is running under `localhost:4200`
