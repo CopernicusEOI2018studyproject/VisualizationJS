@@ -15,13 +15,17 @@ export class FloodService {
     private floodingURL = '/assets/test/dataset.json';
 
     // Resolve HTTP using the constructor
-    constructor (private http: HttpClient, private httpS: HttpClient) {}
+    constructor (private http: HttpClient) {}
 
     getFloodingList() : Observable<FloodingStation[]>{
-        return this.http.get(this.floodingURL)
-            //  .map(res => res )
+        console.log("getFloodingList()");
+        return Observable.interval(10000)
+            .flatMap(() => this.http.get(this.floodingURL))
             .map((res) => {
                 console.log(res); 
+                res[0].score = Math.floor(Math.random() * Math.floor(100));
+                res[1].score = Math.floor(Math.random() * Math.floor(100));
+                res[2].score = Math.floor(Math.random() * Math.floor(100));
                 return res } )
                 // ...errors if any
             .catch((error:any) => Observable.throw(error.json().error || 'Server error'));

@@ -4,85 +4,150 @@ import * as L from 'leaflet';
 
 import {FloodService} from './../services/flood.service';
 // import { EmitterService } from './../emitter.service';
-// import { FloodingStation } from '../model/floodingStation';
+import { FloodingStation } from '../model/floodingStation';
 
 @Component({
-  selector: 'app-map',
-  templateUrl: './map.component.html',
-  styleUrls: ['./map.component.css'],
-  providers: [FloodService]
+    selector: 'app-map',
+    templateUrl: './map.component.html',
+    styleUrls: ['./map.component.css'],
+    providers: [FloodService]
 })
+
 export class MapComponent implements OnInit, OnChanges {
 
-  public options;
-  public layers;
-  
-  private floodingList;
+    public options;
+    public layers;
 
-  private markerIcon = L.icon({
-    iconUrl: '/assets/img/flood-512.png',
-    iconSize: [38, 95],
-    iconAnchor: [22, 94],
-    popupAnchor: [-3, -76]
-});
+    private floodingList;
+    private startFloodService;
+
+    // if there is no flooding
+    private markerIconFalse = L.icon({
+        iconUrl: '/assets/img/leaf-green.png',    // '/assets/img/flood-512.png',
+        shadowUrl: '/assets/img/leaf-shadow.png',
+        iconSize: [38, 95],
+        shadowSize:   [50, 64],
+        iconAnchor: [22, 94],
+        shadowAnchor: [4, 62],
+        popupAnchor: [-3, -76]
+    });
+
+    // if there is flooding
+    private markerIconTrue = L.icon({
+        iconUrl: '/assets/img/leaf-red.png',    // '/assets/img/flood-512.png',
+        shadowUrl: '/assets/img/leaf-shadow.png',
+        iconSize: [38, 95],
+        shadowSize:   [50, 64],
+        iconAnchor: [22, 94],
+        shadowAnchor: [4, 62],
+        popupAnchor: [-3, -76]
+    });
   
-  constructor(
-    private floodService: FloodService
-  ) {  }
+    constructor(private floodService: FloodService) {
+        // constructor
+    }
 
   ngOnInit() {
 
-      this.options = {
+    this.options = {
         layers: [
-          L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '...' })
+            L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '...' })
         ],
         zoom: 15,
         center: L.latLng(51.964859, 7.598607)
-      };
+    };
 
-      this.getStationsList();
-      this.floodingList;
+    // this.getStationsList();
+    this.floodingList = [];
+
+    // testdata
+    // this.floodingList =  [
+    //     new FloodingStation ("Geo", 51.969512, 7.595881, Math.floor(Math.random() * Math.floor(100))),
+    //     new FloodingStation ("Mensa", 51.965318, 7.600216, Math.floor(Math.random() * Math.floor(100))),
+    //     new FloodingStation ("Math", 51.965939, 7.602946, Math.floor(Math.random() * Math.floor(100))),
+    //     new FloodingStation ("Botanical Garden", 51.963627, 7.609006, 10)
+    //     new FloodingStation ("UKM", 51.960963, 7.596732, 20)
+    //     new FloodingStation ("Skin", 51.966846, 7.591325, 57)
+    //     new FloodingStation ("Technologiepark", 51.976765, 8.597629, 78)
+    // ]
 
   }
 
-  ngOnChanges(changes:any) {
-    // Listen to the 'list'emitted event so as populate the model
-    // with the event payload
-    // EmitterService.get(this.listId).subscribe((floodingList:FloodingStation[]) => {this.floodingList = floodingList});
-  }
+    ngOnChanges(changes:any) {
+        // Listen to the 'list'emitted event so as populate the model
+        // with the event payload
+        // EmitterService.get(this.listId).subscribe((floodingList:FloodingStation[]) => {this.floodingList = floodingList});
+    }
 
-  onMapReady(map: L.Map) {
-    // Do stuff with map
-    console.log('Map ready');
+    onMapReady(map: L.Map) {
+        // Do stuff with map
+        console.log('Map ready');
+    }
 
-  }
+    private addStationsToMap(list) {
+        let layersArray = [];
 
-  private addStationsToMap(list) {
-    let layersArray = [];
+        list.forEach(el => {
+        let marker = L.marker([ el.lat, el.lon ], {
+            icon: ( el.score >= 60 ? this.markerIconTrue : this.markerIconFalse ),
+            draggable: true
+        });
+        marker.on('dragend', function (e) {
+            console.log(e);
+            // document.getElementById('latitude').value = marker.getLatLng().lat;
+            // document.getElementById('longitude').value = marker.getLatLng().lng;
+        });
+        marker.bindPopup('score: ' + el.score);
+        console.log(el);
+        if (el.changed) {
+            
+            el.changed = false;
+        }
 
-    list.forEach(el => {
-      layersArray.push(L.marker([ el.lat, el.lon ], {icon: this.markerIcon}))
-    });
+        layersArray.push(marker)
+        });
 
-    return layersArray;
-  }
+        return layersArray;
+    }
 
   private getStationsList() {
-    
-    this.floodService.getFloodingList()
-    .subscribe(
-      (stations) => {
-        this.floodingList = stations //Bind to view
-        this.layers = this.addStationsToMap(this.floodingList);
 
-        // do stuff here when loaded
-      },
-      (err) => {
-        // Log errors if any
-        console.log(err);
-      });
+    this.startFloodService = this.floodService.getFloodingList()
+        .subscribe(
+        (stations) => {
+            let newList = stations.concat(this.floodingList.filter(function (item) {
+
+                let idx = stations.findIndex((elem, index, array) => {
+                    if (elem.station === item.station) {
+                        array[index].changed = true;
+                        return true;
+                    }
+                    return false;
+                })
+                
+                return idx < 0;
+            })
+            )
+
+            this.floodingList = newList;
+            // this.floodingList = newList;
+            this.layers = this.addStationsToMap(newList); // Bind to view
+        },
+            (err) => {
+            // Log errors if any
+            console.log(err);
+        });
 
     }
 
+    public startSubscription() {
+        console.log("start stream");
+        this.getStationsList();
+    }
+    
+    public stopSubscription() {
+        console.log("stop stream");
+        this.startFloodService.unsubscribe();
+    }
 
 }
