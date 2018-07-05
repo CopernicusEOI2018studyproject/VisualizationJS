@@ -130,7 +130,6 @@ export class MapComponent implements OnInit, OnChanges {
             )
 
             this.floodingList = newList;
-            // this.floodingList = newList;
             this.layers = this.addStationsToMap(newList); // Bind to view
         },
             (err) => {
