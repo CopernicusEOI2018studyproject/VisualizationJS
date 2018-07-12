@@ -1,0 +1,22 @@
+{
+  "name": "copeoi-server",
+  "version": "0.0.1",
+  "private": true,
+  "description": "serve for access files",
+  "main": "./server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "author": {
+    "name": "Torben Kraft",
+    "mail": "<t_kraf03@uni-muenster.de"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.1",
+    "colors": "^1.1.2",
+    "cors": "^2.8.4",
+    "express": "~4.13.0",
+    "nodemon": "^1.9.2",
+    "path": "^0.12.7"
+  }
+}

@@ -6,6 +6,9 @@ import {FloodService} from './../services/flood.service';
 // import { EmitterService } from './../emitter.service';
 import { FloodingStation } from '../model/floodingStation';
 
+import { HttpClient } from '@angular/common/http';
+
+
 @Component({
     selector: 'app-map',
     templateUrl: './map.component.html',
@@ -17,6 +20,7 @@ export class MapComponent implements OnInit, OnChanges {
 
     public options;
     public layers;
+    public subscribed: boolean;
 
     private floodingList;
     private startFloodService;
@@ -43,9 +47,10 @@ export class MapComponent implements OnInit, OnChanges {
         popupAnchor: [-3, -76]
     });
   
-    constructor(private floodService: FloodService) {
-        // constructor
-    }
+    constructor(
+        private floodService: FloodService,
+        private http: HttpClient
+    ) { }
 
   ngOnInit() {
 
@@ -89,7 +94,7 @@ export class MapComponent implements OnInit, OnChanges {
 
         list.forEach(el => {
         let marker = L.marker([ el.lat, el.lon ], {
-            icon: ( el.score >= 60 ? this.markerIconTrue : this.markerIconFalse ),
+            icon: ( el['score'] >= 60 ? this.markerIconTrue : this.markerIconFalse ),
             draggable: true
         });
         marker.on('dragend', function (e) {
@@ -97,7 +102,8 @@ export class MapComponent implements OnInit, OnChanges {
             // document.getElementById('latitude').value = marker.getLatLng().lat;
             // document.getElementById('longitude').value = marker.getLatLng().lng;
         });
-        marker.bindPopup('score: ' + el.score);
+        // marker.bindPopup('score: ' + el['score']);
+        marker.bindPopup('<h3>'+el.station+'</h3><p>score: '+el['score']+'</p>');
         console.log(el);
         if (el.changed) {
             
@@ -134,6 +140,7 @@ export class MapComponent implements OnInit, OnChanges {
         },
             (err) => {
             // Log errors if any
+            console.log('\n\n err');
             console.log(err);
         });
 
@@ -141,12 +148,34 @@ export class MapComponent implements OnInit, OnChanges {
 
     public startSubscription() {
         console.log("start stream");
+        this.subscribed = true;
         this.getStationsList();
     }
     
     public stopSubscription() {
         console.log("stop stream");
-        this.startFloodService.unsubscribe();
+        if (this.subscribed) {
+            this.subscribed = false;
+            this.startFloodService.unsubscribe();
+        }
+    }
+
+    public getHistoricalData(url) {
+        console.log("get historical");
+        console.log(url);
+
+        if (this.subscribed) {
+            this.startFloodService.unsubscribe();
+        }
+        this.floodService.getFloodingListByURL(url)
+            .subscribe(
+                res => {
+                    this.layers = this.addStationsToMap(res);
+                },
+                err => {
+                    alert('Error:\n' + err.error.error);
+                }
+            );
     }
 
 }

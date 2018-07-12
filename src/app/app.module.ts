@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { MapComponent } from './map/map.component';
 import { EmitterService } from './emitter.service';
 
+import { BrowserXhr } from '@angular/http';
+import {CustExtBrowserXhr} from './brosXhs';
+
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 
 @NgModule({
@@ -17,9 +20,11 @@ import { LeafletModule } from '@asymmetrik/ngx-leaflet';
     BrowserModule,
     LeafletModule.forRoot(),
     HttpClientModule,
-    HttpClientJsonpModule
+    HttpClientJsonpModule,
+    BrowserModule
   ],
   providers: [
+    {provide: BrowserXhr, useClass:CustExtBrowserXhr},
     EmitterService
   ],
   bootstrap: [AppComponent]
