@@ -1,8 +1,17 @@
 # VisualizationJS
 
-### How To
+## How To
 
-- `npm install`
-- `npm start`
+### Run WebApp:
 
-App is running under `localhost:4200`
+- go into `github repository folder`
+- run `ng serve --proxy-config proxy.conf.json`
+
+App is running on port `4200`.
+
+### Run Server:
+
+- go into `server folder` 
+- `DEBUG=* nodemon start`
+
+Server is running on port `4300`.
