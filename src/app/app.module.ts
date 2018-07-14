@@ -4,24 +4,31 @@ import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { MapComponent } from './map/map.component';
+import { SliderComponent } from './slider/slider.component';
+
 import { EmitterService } from './emitter.service';
-
 import { BrowserXhr } from '@angular/http';
-import {CustExtBrowserXhr} from './brosXhs';
-
+import { CustExtBrowserXhr } from './brosXhs';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MapComponent
+    MapComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
-    LeafletModule.forRoot(),
+    BrowserAnimationsModule,
+    FormsModule,
     HttpClientModule,
     HttpClientJsonpModule,
-    BrowserModule
+    LeafletModule.forRoot(),
+    MaterialModule,
+    ReactiveFormsModule
   ],
   providers: [
     {provide: BrowserXhr, useClass:CustExtBrowserXhr},

@@ -1,4 +1,4 @@
-import { Component, OnInit, OnChanges } from '@angular/core';
+import { Component, Input, EventEmitter, OnInit, OnChanges, Output } from '@angular/core';
 import * as L from 'leaflet';
 // import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 
@@ -17,6 +17,13 @@ import { HttpClient } from '@angular/common/http';
 })
 
 export class MapComponent implements OnInit, OnChanges {
+
+    @Input()
+    public datasetName: string;
+
+    // @Output()
+    // public onChangeDataset: EventEmitter<String> = new EventEmitter();
+
 
     public options;
     public layers;
@@ -49,7 +56,7 @@ export class MapComponent implements OnInit, OnChanges {
   
     constructor(
         private floodService: FloodService,
-        private http: HttpClient
+        // private http: HttpClient
     ) { }
 
   ngOnInit() {
@@ -82,11 +89,35 @@ export class MapComponent implements OnInit, OnChanges {
         // Listen to the 'list'emitted event so as populate the model
         // with the event payload
         // EmitterService.get(this.listId).subscribe((floodingList:FloodingStation[]) => {this.floodingList = floodingList});
+        console.log(changes);
+        console.log(this.datasetName);
+        if (changes.datasetName.currentValue !== changes.datasetName.previousValue) {
+            this.changeDataset(this.datasetName);
+        }
     }
 
     onMapReady(map: L.Map) {
         // Do stuff with map
         console.log('Map ready');
+    }
+
+    public changeDataset(fileName: string) {
+        console.log(fileName);
+        this.floodService.getFloodingStationsByFileName(fileName)
+        .subscribe(
+            res => {
+                if (res.length > 0) {
+                    this.layers = this.addStationsToMap(res);
+                    console.log('Data added.');
+                } else {
+                    console.log('empty result');
+                    alert('No new data available.');
+                }
+            },
+            err => {
+                alert('Error:\n' + err.error.error);
+            }
+        );
     }
 
     private addStationsToMap(list) {
@@ -116,66 +147,72 @@ export class MapComponent implements OnInit, OnChanges {
         return layersArray;
     }
 
-  private getStationsList() {
+//   private getStationsList() {
 
-    this.startFloodService = this.floodService.getFloodingList()
-        .subscribe(
-        (stations) => {
-            let newList = stations.concat(this.floodingList.filter(function (item) {
+//     this.startFloodService = this.floodService.getFloodingList()
+//         .subscribe(
+//         (stations) => {
+//             let newList = stations.concat(this.floodingList.filter(function (item) {
 
-                let idx = stations.findIndex((elem, index, array) => {
-                    if (elem.station === item.station) {
-                        array[index].changed = true;
-                        return true;
-                    }
-                    return false;
-                })
+//                 let idx = stations.findIndex((elem, index, array) => {
+//                     if (elem.station === item.station) {
+//                         array[index].changed = true;
+//                         return true;
+//                     }
+//                     return false;
+//                 })
                 
-                return idx < 0;
-            })
-            )
+//                 return idx < 0;
+//             })
+//             )
 
-            this.floodingList = newList;
-            this.layers = this.addStationsToMap(newList); // Bind to view
-        },
-            (err) => {
-            // Log errors if any
-            console.log('\n\n err');
-            console.log(err);
-        });
+//             this.floodingList = newList;
+//             this.layers = this.addStationsToMap(newList); // Bind to view
+//         },
+//             (err) => {
+//             // Log errors if any
+//             console.log('\n\n err');
+//             console.log(err);
+//         });
 
-    }
+//     }
 
-    public startSubscription() {
-        console.log("start stream");
-        this.subscribed = true;
-        this.getStationsList();
-    }
+    // public startSubscription() {
+    //     console.log("start stream");
+    //     this.subscribed = true;
+    //     this.getStationsList();
+    // }
     
-    public stopSubscription() {
-        console.log("stop stream");
-        if (this.subscribed) {
-            this.subscribed = false;
-            this.startFloodService.unsubscribe();
-        }
-    }
+    // public stopSubscription() {
+    //     console.log("stop stream");
+    //     if (this.subscribed) {
+    //         this.subscribed = false;
+    //         this.startFloodService.unsubscribe();
+    //     }
+    // }
 
-    public getHistoricalData(url) {
-        console.log("get historical");
-        console.log(url);
+    // public getHistoricalData(url) {
+    //     console.log("get historical");
+    //     console.log(url);
 
-        if (this.subscribed) {
-            this.startFloodService.unsubscribe();
-        }
-        this.floodService.getFloodingListByURL(url)
-            .subscribe(
-                res => {
-                    this.layers = this.addStationsToMap(res);
-                },
-                err => {
-                    alert('Error:\n' + err.error.error);
-                }
-            );
-    }
+    //     if (this.subscribed) {
+    //         this.startFloodService.unsubscribe();
+    //     }
+    //     this.floodService.getFloodingStationsByFileName(url)
+    //         .subscribe(
+    //             res => {
+    //                 if (res.length > 0) {
+    //                     this.layers = this.addStationsToMap(res);
+    //                     alert('Data added.');
+    //                 } else {
+    //                     console.log('empty result');
+    //                     alert('No new data available.');
+    //                 }
+    //             },
+    //             err => {
+    //                 alert('Error:\n' + err.error.error);
+    //             }
+    //         );
+    // }
 
 }

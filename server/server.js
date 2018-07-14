@@ -42,12 +42,35 @@ app.listen(config.express_port, function() {
     console.log('------------------------------------------------------------');
 });
 
+app.get('/api/list', function(req, res) {
+    
+    let passon = {
+        url: req.url,
+        folderPath: datasetPath
+    }
+
+    return readFolder(passon)
+        .then((passon) => {
+            debug('Finished reading folder.');
+            res.status(200).send(passon.folder);
+        })
+        .catch(err => {
+            debug('Error reading folder:\n[%s]', JSON.stringify(err));
+            let status = 500;
+            if (err.status) {
+                status = err.status;
+            }
+            let msg = 'Internal error';
+            if (err.msg) {
+                msg = err.msg;
+            }
+            res.status(status).send({ error: msg });
+        })
+})
+
 /* Read file by path. */
-app.get('/*', function(req, res) {
-
-    // res.header('Access-Control-Allow-Origin', '*');    // allow CORS
-
-    let fileName = req.url.substring(5, req.url.length);
+app.get('/api/stations/*', function(req, res) {
+    let fileName = req.url.substring(14, req.url.length); // 5 + 9
     let passon = {
         url: req.url,
         filePath: path.join(datasetPath, fileName),
@@ -73,9 +96,24 @@ app.get('/*', function(req, res) {
         });
 });
 
+function readFolder(passon) {
+    return new Promise((fulfill, reject) => {
+        try {
+            passon.folder = fse.readdirSync(passon.folderPath);
+            debug('Folder found.');
+            fulfill(passon);
+        } catch (err) {
+            debug('Error reading folder');
+            err.status = 404;
+            err.msg = 'Folder does not exist.';
+            debug(err.msg);
+            reject(err);
+        }
+    });
+}
+
 function readDataset(passon) {
     return new Promise((fulfill, reject) => {
-        // console.log(fse.readdirSync(datasetPath));
         try {
             debug('Checking path: [%s]', passon.filePath);
             // var folder = fse.readdirSync(path);

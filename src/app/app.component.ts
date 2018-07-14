@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectorRef, Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Visualization of Stream Processed Data';
+
+  @Output()
+  public onChangeDataset: EventEmitter<String> = new EventEmitter();
+
+  public title = 'Visualization of Stream Processed Data';
+  public fileName;
+
+  constructor (
+    private cdr: ChangeDetectorRef,
+  ) { }
+
+
+  // @Input
+  // public onchangeDataset;
+
+  private changeFilename(fileName: string) {
+    console.log('changeDataset()');
+    console.log(fileName);
+    this.fileName = fileName;
+    // this.onChangeDataset.emit(fileName);
+    // this.cdr.detectChanges();
+  }
 }
