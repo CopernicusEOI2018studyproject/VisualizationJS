@@ -1,38 +1,11 @@
-<!-- 
-<div class="grid-container">
-  <h1 class="mat-h1">Slider Component!</h1>
-
-  <mat-card class="dashboard-card"> -->
-
 <div>
-  {{ fileNames[fileNameIdx] }}
-
-  <mat-slider
-    class="example-margin"
-    [disabled]="disabled"
-    [invert]="invert"
-    [max]="max"
-    [min]="min"
-    [step]="step"
-    [thumbLabel]="thumbLabel"
-    [tickInterval]="tickInterval"
-    [(ngModel)]="fileNameIdx"
-    [vertical]="vertical">
+  <mat-slider class="slider-margin" [disabled]="disabled" [invert]="invert" [max]="max" [min]="min" [step]="step" [thumbLabel]="thumbLabel"
+    [tickInterval]="tickInterval" [(ngModel)]="fileNameIdx" [vertical]="vertical">
   </mat-slider>
-  <!-- [(ngModel)]="value" -->
-  
-  <button (click)="fireMyEvent(this)">Submit</button>
 </div>
+<div>
 
+  {{ fileNames[fileNameIdx] }}
+  <button mat-fab color="primary" (click)="fireMyEvent(this)">Submit</button>
 
-
-
-    <!-- <button mat-button [matMenuTriggerFor]="menu">slider menu</button>
-    <mat-menu #menu="matMenu" xPosition="before">
-      <button mat-menu-item (click)="fireMyEvent(this)">Dataset 1</button>
-      <button mat-menu-item (click)="fireMyEvent(this)">Dataset 2</button>
-      <button mat-menu-item (click)="fireMyEvent(this)">Dataset 3</button>
-      <button mat-menu-item (click)="fireMyEvent(this)">Dataset 4</button>
-    </mat-menu> -->
-  <!-- </mat-card>
-</div> -->
+</div>

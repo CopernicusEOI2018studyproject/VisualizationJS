@@ -15,3 +15,9 @@ App is running on port `4200`.
 - `DEBUG=* nodemon start`
 
 Server is running on port `4300`.
+
+
+### Otherwise
+
+- go into `github repository folder`
+- run `npm start && nodemon starart && nodemon start --prefix server`

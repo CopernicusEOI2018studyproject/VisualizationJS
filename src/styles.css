@@ -2,6 +2,31 @@
 
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+body {
+  max-height: 100vh;
+  max-width: 100vw;
+  /* overflow: hidden; */
+}
+
 .mat-card {
   max-width: 100%;
+  max-height: 100%;
+}
+
+/* custom material snack bar options */
+.snack-bar-success {
+  background-color: green;
+  color: black;
+  border: 2px solid black;
+}
+.snack-bar-warning {
+  background-color: red;
+  color: black;
+  border: 2px solid black;
+}
+.snack-bar-default {
+  background-color: lightgrey;
+  color: black;
+  border: 2px solid black;
+  opacity: 0.5;
 }

@@ -13,19 +13,14 @@ export class AppComponent {
   public title = 'Visualization of Stream Processed Data';
   public fileName;
 
-  constructor (
+  constructor(
     private cdr: ChangeDetectorRef,
   ) { }
 
-
-  // @Input
-  // public onchangeDataset;
-
   private changeFilename(fileName: string) {
-    console.log('changeDataset()');
+    console.log('changeFilename()');
     console.log(fileName);
     this.fileName = fileName;
-    // this.onChangeDataset.emit(fileName);
     // this.cdr.detectChanges();
   }
 }

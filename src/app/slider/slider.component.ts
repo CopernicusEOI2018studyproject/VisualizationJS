@@ -7,10 +7,8 @@ import { FloodService } from './../services/flood.service';
   styleUrls: ['./slider.component.css'],
   providers: [FloodService]
 })
-export class SliderComponent implements OnInit {
 
-  // @Input()
-  // public 
+export class SliderComponent implements OnInit {
 
   @Output()
   public onChangeFilename: EventEmitter<String> = new EventEmitter();
@@ -34,7 +32,7 @@ export class SliderComponent implements OnInit {
   ngOnInit() {
     this.getAllFileNames();
   }
-  
+
   private getAllFileNames() {
     console.log('getAllDatasetNames');
 
@@ -45,7 +43,7 @@ export class SliderComponent implements OnInit {
           if (res.length > 0) {
             this.fileNames = res;
             this.disabled = false;
-            this.max = this.fileNames.length-1;
+            this.max = this.fileNames.length - 1;
             this.fileNameIdx = this.max;
           } else {
             this.disabled = true;

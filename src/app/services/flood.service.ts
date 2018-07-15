@@ -2,12 +2,11 @@
 import { Injectable }     from '@angular/core';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { FloodingStation } from '../model/floodingStation';
+
+// Import RxJs required methods
 import { Observable } from 'rxjs/Rx';
 // import 'rxjs/add/operator/map';
 import { catchError, map, tap } from 'rxjs/operators';
-// Import RxJs required methods
-
-
 import { ErrorObservable } from 'rxjs/observable/ErrorObservable';
 
 @Injectable()
@@ -47,17 +46,7 @@ export class FloodService {
             .pipe(
                 catchError(this.handleError('getFloodingStationsByFileName', []))
             );
-            //  ((res) => {
-            //     console.log(res);
-            //     res[0].score = Math.floor(Math.random() * Math.floor(100));
-            //     res[1].score = Math.floor(Math.random() * Math.floor(100));
-            //     res[2].score = Math.floor(Math.random() * Math.floor(100));
-            //     return res 
-            // })
-            // .catch((error:any) => {
-            //     return Observable.throw(error || 'Server error');
-            // });
-     }
+     };
 
     /**
      * Handle Http operation that failed.
