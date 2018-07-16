@@ -1,16 +1,8 @@
-<!-- <div> -->
-  <!-- <button (click)="startSubscription()">start stream</button> -->
-  <!-- <button (click)="stopSubscription()">stop stream</button> -->
-  <!-- <button (click)="getHistoricalData('/assets/test/dataset.json')">historical</button> -->
-  <!-- <button (click)="getHistoricalData('http://localhost:4300/api/stations/bla.json')">bla</button> -->
-  <!-- <button (click)="getHistoricalData('http://localhost:4300/api/stations/output01.json')">output01</button> -->
-  <!-- <button (click)="getHistoricalData('http://localhost:4300/api/stations/dataset.json')">dataset</button> -->
-<!-- </div> -->
-
 <div style="min-height: 600px;"
      leaflet 
      [leafletOptions]="options"
      [leafletLayers]="layers"
+     [leafletLayersControl]="layersControl"
      (leafletMapReady)="onMapReady($event)">
 </div>
 

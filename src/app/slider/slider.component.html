@@ -3,9 +3,14 @@
     [tickInterval]="tickInterval" [(ngModel)]="fileNameIdx" [vertical]="vertical">
   </mat-slider>
 </div>
+
 <div>
+  <mat-menu #fileMenu="matMenu">
+    <ng-container *ngFor="let el of fileNames; index as i">
+      <button mat-menu-item (click)="clickHandler(el, i)">{{ el }}</button>
+    </ng-container>
+  </mat-menu>
+  <button class="filebutton" mat-icon-button [matMenuTriggerFor]="fileMenu">{{ fileNames[fileNameIdx] }}</button>
 
-  {{ fileNames[fileNameIdx] }}
   <button mat-fab color="primary" (click)="fireMyEvent(this)">Submit</button>
-
 </div>

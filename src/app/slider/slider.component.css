@@ -6,3 +6,9 @@
 .mat-slider-horizontal {
     min-width: 80%;
 }
+
+.filebutton {
+    min-width: 200px;
+    margin-left:20px;
+    margin-right:20px;
+}

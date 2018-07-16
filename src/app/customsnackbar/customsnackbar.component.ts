@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
+import {MAT_SNACK_BAR_DATA} from '@angular/material';
 
 @Component({
   selector: 'app-customsnackbar',
@@ -10,7 +11,8 @@ import { Component } from '@angular/core';
   `],
 })
 export class CustomsnackbarComponent {
-  public message = 'hello its me';
+  constructor(@Inject(MAT_SNACK_BAR_DATA) public data: any) {}
+  public message = this.data;
 }
 
 
@@ -24,7 +26,8 @@ export class CustomsnackbarComponent {
   `],
 })
 export class WarningsnackbarComponent {
-  public message = 'Warning: ';
+  constructor(@Inject(MAT_SNACK_BAR_DATA) public data: any) {}
+  public message = 'Warning: ' + this.data;
 }
 
 
@@ -38,5 +41,6 @@ export class WarningsnackbarComponent {
   ],
 })
 export class SuccesssnackbarComponent {
-  public message = 'Success: ';
+  constructor(@Inject(MAT_SNACK_BAR_DATA) public data: any) {}
+  public message = 'Success: ' + this.data;
 }
