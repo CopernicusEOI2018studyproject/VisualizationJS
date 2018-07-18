@@ -19,7 +19,7 @@ export class FloodService {
     // Resolve HTTP using the constructor
     constructor (private http: HttpClient) {}
 
-    getList() : Observable<string[]> {
+    public getList() : Observable<string[]> {
         let url = this.urlPort + 'list'
         return this.http.get<string[]>(url)
             .pipe(
@@ -40,7 +40,7 @@ export class FloodService {
     //         .catch((error:any) => Observable.throw(error.json().error || 'Server error'));
     //  }
 
-    getFloodingStationsByFileName(filename: string) : Observable<FloodingStation[]> {
+    public getFloodingStationsByFileName(filename: string) : Observable<FloodingStation[]> {
         let url = this.urlPort + this.stations + filename;
         return this.http.get<FloodingStation[]>(url)
             .pipe(

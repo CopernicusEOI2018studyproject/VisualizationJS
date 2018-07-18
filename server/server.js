@@ -96,6 +96,39 @@ app.get('/api/stations/*', function(req, res) {
         });
 });
 
+app.get('/api/test/*', function(req, res) {
+    let fileName = req.url.substring(10, req.url.length);
+    let passon = {
+        url: req.url,
+        filePath: path.join(datasetPath, fileName),
+        file: fileName
+    };
+
+    return readDataset(passon)
+        .then((passon) => {
+            debug('Finished reading file: [%s]', passon.file);
+
+            let array = passon.output; // old dataset ['Biggest_score_map'];
+            for (let i=0; i<array.length;i++) {
+                array[i].score = Math.floor(Math.random() * Math.floor(100));
+            }
+
+            res.status(200).send(array);
+        })
+        .catch(err => {
+            debug('Error reading file: [%s]\n[%s]', passon.file, JSON.stringify(err));
+            let status = 500;
+            if (err.status) {
+                status = err.status;
+            }
+            let msg = 'Internal error';
+            if (err.msg) {
+                msg = err.msg;
+            }
+            res.status(status).send({ error: msg });
+        });
+});
+
 function readFolder(passon) {
     return new Promise((fulfill, reject) => {
         try {
