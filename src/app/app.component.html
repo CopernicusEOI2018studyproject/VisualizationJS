@@ -16,13 +16,13 @@
       </mat-card-header>
       <mat-card-content class="dashboard-card-content">
         <div>
-          <app-slider (onChangeFilename)='changeFilename($event)'></app-slider>
+          <app-slider (onChangeSelection)='changeSelection($event)' (onChangeFilename)='changeFilename($event)'></app-slider>
         </div>
       </mat-card-content>
 
       <mat-card-content class="dashboard-card-content">
         <div>
-          <app-map [datasetName]='fileName'></app-map>
+          <app-map [selection]='stationsSelection' [datasetName]='fileName'></app-map>
         </div>
       </mat-card-content>
 

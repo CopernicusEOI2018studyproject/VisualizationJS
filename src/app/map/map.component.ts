@@ -17,6 +17,9 @@ export class MapComponent implements OnInit, OnChanges {
   @Input()
   public datasetName: string;
 
+  @Input()
+  public selection: string;
+
   public options;
   public layers;
   public subscribed: boolean;
@@ -30,6 +33,7 @@ export class MapComponent implements OnInit, OnChanges {
   private startFloodService;
   private geohashes = [];
   private map;
+  private datasets;
   private defaults = {
     zoom: 5,
     maxDisplay: 10240,
@@ -75,13 +79,20 @@ export class MapComponent implements OnInit, OnChanges {
       zoom: 6, // 15,
       center: L.latLng(51.964859, 7.598607)
     };
+    this.selection = 'Biggest';
     this.floodingList = [];
   }
 
   ngOnChanges(changes: any) {
+    
     if (changes.datasetName) {
       if (changes.datasetName.currentValue !== changes.datasetName.previousValue) {
         this.changeDataset(this.datasetName);
+      }
+    }
+    if (changes.selection) {
+      if (changes.selection.currentValue !== changes.selection.previousValue) {
+        this.drawStations(this.selection);
       }
     }
   }
@@ -104,7 +115,7 @@ export class MapComponent implements OnInit, OnChanges {
         zoom: map.getZoom(),
         bounds: map.getBounds()
       };
-      that.drawGrid(options);
+      that.drawGrid(options); 
     });
 
   }
@@ -115,31 +126,26 @@ private gridBox;
     this.floodService.getFloodingStationsByFileName(fileName)
       .subscribe(
         res => {
-          if (res.length > 0) {
-            let layers = this.addStationsToMap(res);
-            // add markers as overlay layer to map
-            if (this.markers) {
-              this.markers.clearLayers();
+          if (res !== undefined && res[this.selection] !== undefined) {
+            if (res[this.selection].length > 0) {
+              this.datasets = res;
+              this.drawStations(this.selection);
+
+              this.snackBar.openFromComponent(SuccesssnackbarComponent, {
+                data: 'Data added from: ' + fileName,
+                panelClass: ['snack-bar-success'],
+                duration: 3000,
+              });
+            } else {
+              this.snackBar.openFromComponent(CustomsnackbarComponent, {
+                data: 'No data added for '+this.selection+'.',
+                panelClass: ['snack-bar-default'],
+                duration: 3000,
+              });
             }
-            this.markers = L.layerGroup(layers);
-            this.layersControl.overlays['markers'] = this.markers;
-            this.map.addLayer(this.markers);
-
-            // redraw grid
-            let options = {
-              zoom: this.map.getZoom(),
-              bounds: this.map.getBounds()
-            };
-            this.drawGrid(options);
-
-            this.snackBar.openFromComponent(SuccesssnackbarComponent, {
-              data: 'Data added from: ' + fileName,
-              panelClass: ['snack-bar-success'],
-              duration: 3000,
-            });
           } else {
             this.snackBar.openFromComponent(CustomsnackbarComponent, {
-              data: 'No data added.',
+              data: 'No data available.',
               panelClass: ['snack-bar-default'],
               duration: 3000,
             });
@@ -155,7 +161,28 @@ private gridBox;
       );
   }
 
+  private drawStations(selectedKey) {
+    let stationsList = this.datasets[selectedKey];
+
+    let layers = this.addStationsToMap(stationsList);
+    // add markers as overlay layer to map
+    if (this.markers) {
+      this.markers.clearLayers();
+    }
+    this.markers = L.layerGroup(layers);
+    this.layersControl.overlays['markers'] = this.markers;
+    this.map.addLayer(this.markers);
+
+    // redraw grid
+    let options = {
+      zoom: this.map.getZoom(),
+      bounds: this.map.getBounds()
+    };
+    this.drawGrid(options);
+  }
+
   private addStationsToMap(list) {
+    console.log(list);
     let layersArray = [];
     let geohashArray = [];
 

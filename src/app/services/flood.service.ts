@@ -15,16 +15,27 @@ export class FloodService {
     // private floodingURL = '/assets/test/dataset.json';
     private urlPort = 'http://localhost:4300/api/';
     private stations = 'stations/';
+    private initList = true;
 
     // Resolve HTTP using the constructor
     constructor (private http: HttpClient) {}
 
     public getList() : Observable<string[]> {
         let url = this.urlPort + 'list'
-        return this.http.get<string[]>(url)
-            .pipe(
-                catchError(this.handleError('getList', []))
-            );
+        console.log(url);
+        // if (this.initList) {
+            this.initList = false;
+            return this.http.get<string[]>(url)
+                .pipe(
+                    catchError(this.handleError('getList', []))
+                );
+        // } else {
+        //     return Observable.interval(500) // (60000)
+        //         .flatMap(() => this.http.get<string[]>(url))
+        //         .pipe(
+        //             catchError(this.handleError('getList', []))
+        //         );
+        // }
     }
 
     // getFloodingList() : Observable<any> {

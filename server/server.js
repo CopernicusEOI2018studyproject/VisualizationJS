@@ -96,8 +96,8 @@ app.get('/api/stations/*', function(req, res) {
         });
 });
 
-app.get('/api/test/*', function(req, res) {
-    let fileName = req.url.substring(10, req.url.length);
+app.get('/api/change/*', function(req, res) {
+    let fileName = req.url.substring(12, req.url.length);
     let passon = {
         url: req.url,
         filePath: path.join(datasetPath, fileName),
@@ -106,13 +106,15 @@ app.get('/api/test/*', function(req, res) {
 
     return readDataset(passon)
         .then((passon) => {
-            debug('Finished reading file: [%s]', passon.file);
-
+            
             let array = passon.output; // old dataset ['Biggest_score_map'];
-            for (let i=0; i<array.length;i++) {
-                array[i].score = Math.floor(Math.random() * Math.floor(100));
+            for (let key in array) {
+                for (let i=0; i<array[key].length;i++) {
+                    array[key][i].score = Math.floor(Math.random() * Math.floor(100));
+                }
             }
-
+            
+            debug('Finished reading file: [%s]', passon.file);
             res.status(200).send(array);
         })
         .catch(err => {
@@ -167,6 +169,7 @@ function readDataset(passon) {
             fulfill(passon);
         
         } catch (err) {
+            debug(err);
             debug('Error reading file');
             err.status = 404;
             err.msg = 'File does not exist.';
