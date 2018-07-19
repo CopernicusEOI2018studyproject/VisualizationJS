@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('visualization-cop App', () => {
+describe('floodingornot App', () => {
   let page: AppPage;
 
   beforeEach(() => {

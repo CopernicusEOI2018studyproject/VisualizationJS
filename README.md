@@ -35,8 +35,12 @@ App is running on port `4200`.
 - run `npm start && nodemon start && nodemon start --prefix server`
 -->
 
-## Credits
+## Author
 
-- ngx-leaflet: https://github.com/Asymmetrik/ngx-leaflet
-- geohash de-/encoding: https://github.com/chrisveness/latlon-geohash
-- grid overlay: https://github.com/rzanato/geohashgrid
+__Torben Kraft__ - [TeKraft](https://github.com/TeKraft)
+
+### Credits
+
+- [ngx-leaflet](https://github.com/Asymmetrik/ngx-leaflet) by Asymmetrik
+- [geohash de-/encoding](https://github.com/chrisveness/latlon-geohash) by Chris Veness
+- [grid overlay](https://github.com/rzanato/geohashgrid) by Rodrigo Zanato Tripodi

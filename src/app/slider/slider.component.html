@@ -1,25 +1,49 @@
+
 <div>
-  <mat-slider class="slider-margin" [disabled]="disabled" [invert]="invert" [max]="max" [min]="min" [step]="step" [thumbLabel]="thumbLabel"
-    [tickInterval]="tickInterval" [(ngModel)]="fileNameIdx" [vertical]="vertical">
-  </mat-slider>
+
+  <mat-card class="dashboard-card">
+
+    <mat-card-content class="dashboard-card-content">
+      <mat-slider class="slider-margin" [disabled]="disabled" [invert]="invert" [max]="max" [min]="min" [step]="step" [thumbLabel]="thumbLabel"
+        [tickInterval]="tickInterval" [(ngModel)]="fileNameIdx" [vertical]="vertical">
+      </mat-slider>
+
+      <mat-menu #fileMenu="matMenu">
+        <ng-container *ngFor="let el of dateStrings; index as i">
+          <button mat-menu-item (click)="clickHandler(el, i)">{{ el }}</button>
+        </ng-container>
+      </mat-menu>
+      <button class="filebutton" mat-icon-button [matMenuTriggerFor]="fileMenu">{{ dateStrings[fileNameIdx] }}</button>
+
+      <button mat-fab color="primary" (click)="startRequest(this)">Submit</button>
+    </mat-card-content>
+  </mat-card>
 </div>
-
 <div>
-  <mat-menu #fileMenu="matMenu">
-    <ng-container *ngFor="let el of dateStrings; index as i">
-      <button mat-menu-item (click)="clickHandler(el, i)">{{ el }}</button>
-    </ng-container>
-  </mat-menu>
-  <button class="filebutton" mat-icon-button [matMenuTriggerFor]="fileMenu">{{ dateStrings[fileNameIdx] }}</button>
 
-  <button mat-fab color="primary" (click)="startRequest(this)">Submit</button>
+  <mat-card class="dashboard-card">
 
-  <mat-radio-group class="mat-radio-group" [(ngModel)]="stationsSelection" (change)="changeSelection(stationsSelection)">
-    <mat-radio-button class="mat-radio-button" *ngFor="let selection of selectionList" [value]="selection">
-      {{selection}}
-    </mat-radio-button>
-  </mat-radio-group>
+    <mat-card-content class="dashboard-card-content">
+      <form class="mat-container" [formGroup]="options">
+        <mat-form-field>
+          <input matInput placeholder="Highlight marker with score above ..." formControlName="highlight" value="50" type="number" max="100" min="1" class="mat-right-align">
+        </mat-form-field>
+        <button mat-fab color="primary" (click)="changeHighlighting(this)">Submit</button>
+      </form>
+    </mat-card-content>
+  <!-- </mat-card>
 
-  <!-- <div [hidden]="disabled" class="mat-selected-value">The visualized dataset is from: {{ dateStrings[selectedFileIndex] }}</div> -->
+  <mat-card class="dashboard-card"> -->
+    <mat-card-content class="dashboard-card-content">
+      <mat-radio-group class="mat-radio-group" [(ngModel)]="stationsSelection" (change)="changeSelection(stationsSelection)">
+        <mat-radio-button class="mat-radio-button" *ngFor="let selection of selectionList" [value]="selection">
+          {{selection}}
+        </mat-radio-button>
+      </mat-radio-group>
+    </mat-card-content>
+    <!-- <div [hidden]="disabled" class="mat-selected-value">The visualized dataset is from: {{ dateStrings[selectedFileIndex] }}</div> -->
+  </mat-card>
+
   <div class="mat-selected-value">The visualized dataset is from: {{ dateStrings[selectedFileIndex] }}</div>
+
 </div>

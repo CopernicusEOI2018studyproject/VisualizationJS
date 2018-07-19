@@ -2,6 +2,7 @@ import { Component, Input, EventEmitter, OnInit, OnChanges, Output } from '@angu
 import { FloodService } from './../services/flood.service';
 import { MatSnackBar } from '@angular/material';
 import { CustomsnackbarComponent, WarningsnackbarComponent, SuccesssnackbarComponent } from './../customsnackbar/customsnackbar.component';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-slider',
@@ -17,6 +18,9 @@ export class SliderComponent implements OnInit {
   
   @Output()
   public onChangeSelection: EventEmitter<String> = new EventEmitter();
+  
+  @Output()
+  public onChangeHighlighting: EventEmitter<Number> = new EventEmitter();
 
   public autoTicks = false;
   public disabledSelection = false;
@@ -27,11 +31,13 @@ export class SliderComponent implements OnInit {
   public step = 1;
   public thumbLabel = false;
   public fileNameIdx = 0;
+  private highlight = 50;
   public vertical = false;
   public fileNames = ["no data selected"];
   public selectionList = ['Biggest', '8hours'];
   public stationsSelection = 'Biggest';
   public selectedFileIndex;
+  private options: FormGroup;
 
   private dateStrings = ["no data selected"];
   private selectedFile;
@@ -39,8 +45,13 @@ export class SliderComponent implements OnInit {
 
   constructor(
     private floodService: FloodService,
-    public snackBar: MatSnackBar
-  ) { }
+    private snackBar: MatSnackBar,
+    private fb: FormBuilder
+  ) {
+    this.options = fb.group({
+      highlight: 50,
+    });
+   }
 
   ngOnInit() {
     this.getAllFileNames();
@@ -146,6 +157,12 @@ export class SliderComponent implements OnInit {
     let date = new Date(string);
     let output = date.getUTCDate() + '.' + (date.getUTCMonth()+1) + '.' + date.getUTCFullYear() + ' ' + date.getUTCHours() + ':00:00';
     return output;
+  }
+
+  private changeHighlighting(value) {
+    // this.highlight = value;
+    console.log(this.options);
+    this.onChangeHighlighting.emit(this.options.value.highlight);
   }
 
 }

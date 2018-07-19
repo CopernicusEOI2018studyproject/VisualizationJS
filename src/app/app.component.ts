@@ -11,9 +11,11 @@ export class AppComponent {
   public onChangeDataset: EventEmitter<String> = new EventEmitter();
   public onChangeSelection: EventEmitter<String> = new EventEmitter();
 
-  public title = 'Visualization of Stream Processed Data';
+  public title = 'FloodOrNot';
   public fileName;
   public stationsSelection;
+
+  private highlight;
 
   constructor(
     private cdr: ChangeDetectorRef,
@@ -31,5 +33,11 @@ export class AppComponent {
     console.log(selection);
     this.stationsSelection = selection;
     // this.cdr.detectChanges();
+  }
+
+  private changeHighlighting(highlight: number) {
+    console.log(highlight);
+    console.log(this.highlight);
+    this.highlight = highlight;
   }
 }

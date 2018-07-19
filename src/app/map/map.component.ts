@@ -20,6 +20,9 @@ export class MapComponent implements OnInit, OnChanges {
   @Input()
   public selection: string;
 
+  @Input()
+  public highlight: number;
+
   public options;
   public layers;
   public subscribed: boolean;
@@ -80,6 +83,7 @@ export class MapComponent implements OnInit, OnChanges {
       center: L.latLng(51.964859, 7.598607)
     };
     this.selection = 'Biggest';
+    this.highlight = 50;
     this.floodingList = [];
   }
 
@@ -94,6 +98,12 @@ export class MapComponent implements OnInit, OnChanges {
       if (changes.selection.currentValue !== changes.selection.previousValue) {
         this.drawStations(this.selection);
       }
+    }
+    if (changes.highlight) {
+      if (changes.highlight.currentValue !== changes.highlight.previousValue) {
+        this.drawStations(this.selection);
+      }
+
     }
   }
 
@@ -189,13 +199,13 @@ private gridBox;
     list.forEach(el => {
       // define marker
       let marker = L.marker([el.lat, el.lon], {
-        icon: (el['score'] >= 60 ? this.markerIconTrue : this.markerIconFalse)
+        icon: (el['score'] >= this.highlight ? this.markerIconTrue : this.markerIconFalse)
       });
 
       // check if geohash is already in list
       if (el.geohash !== undefined) {
         let idx = geohashArray.findIndex((hash) => hash === el.geohash);
-        if (idx < 0) {
+        if (idx < 0 && el['score'] >= this.highlight) {
           geohashArray.push(el.geohash);
         }
       }

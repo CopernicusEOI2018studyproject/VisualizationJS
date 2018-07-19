@@ -16,12 +16,41 @@
 .mat-radio-group {
     display: inline-flex;
     flex-direction: column;
-  }
-  
-  .mat-radio-button {
+}
+
+.mat-radio-button {
     margin: 5px;
-  }
-  
-  .mat-selected-value {
+}
+
+.mat-selected-value {
     margin: 15px 0;
-  }
+}
+
+.mat-right-align {
+    text-align: right;
+}
+
+/* .mat-container {
+    display: flex;
+    flex-direction: column;
+} */
+  
+/* .mat-container > * {
+    width: 100%;
+} */
+
+.dashboard-card {
+    /* position: absolute; */
+    /* max-width: 50%; */
+    display: flex;
+    /* top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px; */
+    align-content: center;
+}
+  
+.dashboard-card-content {
+    text-align: center;
+    width: 100%;
+}
