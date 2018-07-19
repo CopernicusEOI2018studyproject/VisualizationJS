@@ -21,35 +21,13 @@ export class FloodService {
     constructor (private http: HttpClient) {}
 
     public getList() : Observable<string[]> {
-        let url = this.urlPort + 'list'
-        console.log(url);
-        // if (this.initList) {
+        let url = this.urlPort + 'list';
             this.initList = false;
             return this.http.get<string[]>(url)
                 .pipe(
                     catchError(this.handleError('getList', []))
                 );
-        // } else {
-        //     return Observable.interval(500) // (60000)
-        //         .flatMap(() => this.http.get<string[]>(url))
-        //         .pipe(
-        //             catchError(this.handleError('getList', []))
-        //         );
-        // }
     }
-
-    // getFloodingList() : Observable<any> {
-    //     let url = this.urlPort + 'dataset.json';
-    //     return Observable.interval(5000) // 10000 = 10 sec
-    //         .flatMap(() => this.http.get<any>(url))
-    //         .map((res) => {
-    //             console.log(res);
-    //             res[0].score = Math.floor(Math.random() * Math.floor(100));
-    //             res[1].score = Math.floor(Math.random() * Math.floor(100));
-    //             res[2].score = Math.floor(Math.random() * Math.floor(100));
-    //             return res } )
-    //         .catch((error:any) => Observable.throw(error.json().error || 'Server error'));
-    //  }
 
     public getFloodingStationsByFileName(filename: string) : Observable<FloodingStation[]> {
         let url = this.urlPort + this.stations + filename;

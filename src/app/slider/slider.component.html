@@ -26,14 +26,12 @@
     <mat-card-content class="dashboard-card-content">
       <form class="mat-container" [formGroup]="options">
         <mat-form-field>
-          <input matInput placeholder="Highlight marker with score above ..." formControlName="highlight" value="50" type="number" max="100" min="1" class="mat-right-align">
+          <input matInput placeholder="Highlight marker with score above ..." formControlName="highlight" value="50" type="number" max="100" min="0" class="mat-right-align">
         </mat-form-field>
-        <button mat-fab color="primary" (click)="changeHighlighting(this)">Submit</button>
+        <button mat-fab color="primary" (click)="changeHighlighting(this)">Update</button>
       </form>
     </mat-card-content>
-  <!-- </mat-card>
 
-  <mat-card class="dashboard-card"> -->
     <mat-card-content class="dashboard-card-content">
       <mat-radio-group class="mat-radio-group" [(ngModel)]="stationsSelection" (change)="changeSelection(stationsSelection)">
         <mat-radio-button class="mat-radio-button" *ngFor="let selection of selectionList" [value]="selection">
@@ -41,7 +39,6 @@
         </mat-radio-button>
       </mat-radio-group>
     </mat-card-content>
-    <!-- <div [hidden]="disabled" class="mat-selected-value">The visualized dataset is from: {{ dateStrings[selectedFileIndex] }}</div> -->
   </mat-card>
 
   <div class="mat-selected-value">The visualized dataset is from: {{ dateStrings[selectedFileIndex] }}</div>

@@ -1,4 +1,4 @@
-import { Component, Input, EventEmitter, OnInit, OnChanges, Output } from '@angular/core';
+import { ChangeDetectorRef, Component, Input, EventEmitter, OnInit, OnChanges, Output } from '@angular/core';
 import * as L from 'leaflet';
 import { FloodService } from './../services/flood.service';
 import { GeohashService } from './../services/geohash.service';
@@ -71,7 +71,8 @@ export class MapComponent implements OnInit, OnChanges {
   constructor(
     private floodService: FloodService,
     private geohashService: GeohashService,
-    public snackBar: MatSnackBar
+    public snackBar: MatSnackBar,
+    // private cdr: ChangeDetectorRef
   ) { }
 
   ngOnInit() {
@@ -85,6 +86,10 @@ export class MapComponent implements OnInit, OnChanges {
     this.selection = 'Biggest';
     this.highlight = 50;
     this.floodingList = [];
+  }
+
+  public ngDoCheck(): void {
+    // this.cdr.detectChanges();
   }
 
   ngOnChanges(changes: any) {
@@ -172,27 +177,29 @@ private gridBox;
   }
 
   private drawStations(selectedKey) {
-    let stationsList = this.datasets[selectedKey];
-
-    let layers = this.addStationsToMap(stationsList);
-    // add markers as overlay layer to map
-    if (this.markers) {
-      this.markers.clearLayers();
+    if (this.datasets !== undefined) {
+      let stationsList = this.datasets[selectedKey];
+  
+      let layers = this.addStationsToMap(stationsList);
+      // add markers as overlay layer to map
+      if (this.markers) {
+        this.markers.clearLayers();
+      }
+      this.markers = L.layerGroup(layers);
+      this.layersControl.overlays['markers'] = this.markers;
+      this.map.addLayer(this.markers);
+  
+      // redraw grid
+      let options = {
+        zoom: this.map.getZoom(),
+        bounds: this.map.getBounds()
+      };
+      this.drawGrid(options);
     }
-    this.markers = L.layerGroup(layers);
-    this.layersControl.overlays['markers'] = this.markers;
-    this.map.addLayer(this.markers);
-
-    // redraw grid
-    let options = {
-      zoom: this.map.getZoom(),
-      bounds: this.map.getBounds()
-    };
-    this.drawGrid(options);
+    
   }
 
   private addStationsToMap(list) {
-    console.log(list);
     let layersArray = [];
     let geohashArray = [];
 

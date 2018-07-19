@@ -141,9 +141,9 @@ export class SliderComponent implements OnInit {
       this.disabledSelection = true;
       this.onChangeFilename.emit(this.original[this.fileNameIdx]);
     } else {
-      this.snackBar.openFromComponent(WarningsnackbarComponent, {
+      this.snackBar.openFromComponent(CustomsnackbarComponent, {
         data: 'Dataset already loaded.',
-        panelClass: ['snack-bar-warning'],
+        panelClass: ['snack-bar-default'],
         duration: 3000,
       });
     }
@@ -160,9 +160,16 @@ export class SliderComponent implements OnInit {
   }
 
   private changeHighlighting(value) {
-    // this.highlight = value;
-    console.log(this.options);
-    this.onChangeHighlighting.emit(this.options.value.highlight);
+    if (this.highlight === this.options.value.highlight) {
+      this.snackBar.openFromComponent(CustomsnackbarComponent, {
+        data: 'No update needed.',
+        panelClass: ['snack-bar-default'],
+        duration: 3000,
+      });
+    } else {
+      this.highlight = this.options.value.highlight;
+      this.onChangeHighlighting.emit(this.options.value.highlight);
+    }
   }
 
 }

@@ -22,22 +22,16 @@ export class AppComponent {
   ) { }
 
   private changeFilename(fileName: string) {
-    console.log('changeFilename()');
-    console.log(fileName);
     this.fileName = fileName;
     // this.cdr.detectChanges();
   }
 
   private changeSelection(selection: string) {
-    console.log('changeSelection()');
-    console.log(selection);
     this.stationsSelection = selection;
     // this.cdr.detectChanges();
   }
 
   private changeHighlighting(highlight: number) {
-    console.log(highlight);
-    console.log(this.highlight);
     this.highlight = highlight;
   }
 }
