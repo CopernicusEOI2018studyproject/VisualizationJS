@@ -96,6 +96,41 @@ app.get('/api/stations/*', function(req, res) {
         });
 });
 
+app.get('/api/change/*', function(req, res) {
+    let fileName = req.url.substring(12, req.url.length);
+    let passon = {
+        url: req.url,
+        filePath: path.join(datasetPath, fileName),
+        file: fileName
+    };
+
+    return readDataset(passon)
+        .then((passon) => {
+            
+            let array = passon.output; // old dataset ['Biggest_score_map'];
+            for (let key in array) {
+                for (let i=0; i<array[key].length;i++) {
+                    array[key][i].score = Math.floor(Math.random() * Math.floor(100));
+                }
+            }
+            
+            debug('Finished reading file: [%s]', passon.file);
+            res.status(200).send(array);
+        })
+        .catch(err => {
+            debug('Error reading file: [%s]\n[%s]', passon.file, JSON.stringify(err));
+            let status = 500;
+            if (err.status) {
+                status = err.status;
+            }
+            let msg = 'Internal error';
+            if (err.msg) {
+                msg = err.msg;
+            }
+            res.status(status).send({ error: msg });
+        });
+});
+
 function readFolder(passon) {
     return new Promise((fulfill, reject) => {
         try {
@@ -134,6 +169,7 @@ function readDataset(passon) {
             fulfill(passon);
         
         } catch (err) {
+            debug(err);
             debug('Error reading file');
             err.status = 404;
             err.msg = 'File does not exist.';

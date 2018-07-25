@@ -1,0 +1,3150 @@
+{
+    "Biggest": [
+        {
+            "station": "Ahmsen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.09100357026102,
+            "lon": 8.701493951430361,
+            "score": 37,
+            "geohash": "u1q0q4b"
+        },
+        {
+            "station": "Albersloh",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.88391062938489,
+            "lon": 7.728152412085806,
+            "score": 39,
+            "geohash": "u1jrpv5"
+        },
+        {
+            "station": "Altena",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.28945050111217,
+            "lon": 7.67609361098847,
+            "score": 31,
+            "geohash": "u1j7y8v"
+        },
+        {
+            "station": "Altenburg_1",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.897341686164175,
+            "lon": 6.373552242598635,
+            "score": 47,
+            "geohash": "u1h9919"
+        },
+        {
+            "station": "Appelhuelsen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.88547096725793,
+            "lon": 7.4455622255381755,
+            "score": 60,
+            "geohash": "u1jr1mm"
+        },
+        {
+            "station": "Arloff",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.595525869638124,
+            "lon": 6.792256596165651,
+            "score": 8,
+            "geohash": "u0uzfd9"
+        },
+        {
+            "station": "Bachum",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.469883582312335,
+            "lon": 7.943614557416842,
+            "score": 46,
+            "geohash": "u1jsucb"
+        },
+        {
+            "station": "Baltes",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.13576049590359,
+            "lon": 6.291717868003734,
+            "score": 15,
+            "geohash": "u1h6zhv"
+        },
+        {
+            "station": "Balve-Garbeck",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.309991500898995,
+            "lon": 7.841735323440349,
+            "score": 74,
+            "geohash": "u1jefkw"
+        },
+        {
+            "station": "Beddelhausen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.99937259359137,
+            "lon": 8.487732365601232,
+            "score": 44,
+            "geohash": "u1n41hh"
+        },
+        {
+            "station": "Belecke_1",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.48836467847635,
+            "lon": 8.326847734861705,
+            "score": 28,
+            "geohash": "u1juvmp"
+        },
+        {
+            "station": "Bentfeld",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.74883403223376,
+            "lon": 8.63052973627998,
+            "score": 29,
+            "geohash": "u1nnkks"
+        },
+        {
+            "station": "Bessenich",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.71789940236043,
+            "lon": 6.65531696488936,
+            "score": 24,
+            "geohash": "u1h8x2y"
+        },
+        {
+            "station": "Bilk",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.23905277052919,
+            "lon": 7.2928234320495084,
+            "score": 66,
+            "geohash": "u1m1jvy"
+        },
+        {
+            "station": "Bliesheim",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.77910780341911,
+            "lon": 6.825724200426945,
+            "score": 62,
+            "geohash": "u1hbgk4"
+        },
+        {
+            "station": "Boekenfoerde_2",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.63569122297246,
+            "lon": 8.388652324774531,
+            "score": 9,
+            "geohash": "u1jvwzu"
+        },
+        {
+            "station": "Brakel",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.71339341357696,
+            "lon": 9.190684163932746,
+            "score": 14,
+            "geohash": "u1nw1nh"
+        },
+        {
+            "station": "Bredelar",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.409773657792904,
+            "lon": 8.765318803272143,
+            "score": 4,
+            "geohash": "u1nhrqy"
+        },
+        {
+            "station": "Broeleck",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.841250454267325,
+            "lon": 7.416051646989901,
+            "score": 5,
+            "geohash": "u1j30z2"
+        },
+        {
+            "station": "Bueren",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.549489428625606,
+            "lon": 8.56437642157267,
+            "score": 0,
+            "geohash": "u1nj6bk"
+        },
+        {
+            "station": "Burg_Veynau",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.63802835099924,
+            "lon": 6.718260273076937,
+            "score": 73,
+            "geohash": "u1hb0fk"
+        },
+        {
+            "station": "Daemmerwald",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.738466667621104,
+            "lon": 6.7650927571108905,
+            "score": 75,
+            "geohash": "u1hy3fw"
+        },
+        {
+            "station": "Derschlag",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.00778645754559,
+            "lon": 7.626142201334498,
+            "score": 85,
+            "geohash": "u1j6jt9"
+        },
+        {
+            "station": "Einen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.972494196790954,
+            "lon": 7.898395084686952,
+            "score": 53,
+            "geohash": "u1jxetr"
+        },
+        {
+            "station": "Eitorf",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.77698149836617,
+            "lon": 7.44264951936081,
+            "score": 88,
+            "geohash": "u1j2c7e"
+        },
+        {
+            "station": "Erkrath",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.226116783409346,
+            "lon": 6.917011657764416,
+            "score": 37,
+            "geohash": "u1hgmmk"
+        },
+        {
+            "station": "Eschweiler",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.81470697948823,
+            "lon": 6.28863292739942,
+            "score": 45,
+            "geohash": "u1h3p4e"
+        },
+        {
+            "station": "Feudingen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.93876289428183,
+            "lon": 8.325079338773046,
+            "score": 22,
+            "geohash": "u1jcv3n"
+        },
+        {
+            "station": "Fiestel",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.35325408941963,
+            "lon": 8.558631950371243,
+            "score": 6,
+            "geohash": "u1q1ff8"
+        },
+        {
+            "station": "Friesheim",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.75517516599674,
+            "lon": 6.772883434021707,
+            "score": 86,
+            "geohash": "u1hbdpe"
+        },
+        {
+            "station": "Geldern",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.52342526484676,
+            "lon": 6.329234430835782,
+            "score": 32,
+            "geohash": "u1ht058"
+        },
+        {
+            "station": "Gemuend",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.57770817048422,
+            "lon": 6.491224240824602,
+            "score": 90,
+            "geohash": "u0uxexq"
+        },
+        {
+            "station": "Glesch",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.974419252048754,
+            "lon": 6.595789742253462,
+            "score": 82,
+            "geohash": "u1h9ypd"
+        },
+        {
+            "station": "Goch",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.6838984830263,
+            "lon": 6.150844763206087,
+            "score": 13,
+            "geohash": "u1hq5by"
+        },
+        {
+            "station": "Greven",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.094195609827786,
+            "lon": 7.602723661658877,
+            "score": 29,
+            "geohash": "u1m2m52"
+        },
+        {
+            "station": "Gronau",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.21793685184334,
+            "lon": 7.024660046807519,
+            "score": 89,
+            "geohash": "u1kcpcg"
+        },
+        {
+            "station": "Hagen-Ambrock",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.32304316299746,
+            "lon": 7.516737757800766,
+            "score": 66,
+            "geohash": "u1j7gp1"
+        },
+        {
+            "station": "Hagen-Eckesey",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.385206195675394,
+            "lon": 7.449826426438786,
+            "score": 1,
+            "geohash": "u1jk3d2"
+        },
+        {
+            "station": "Hagen-Haspe",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.34801854667026,
+            "lon": 7.418656808709423,
+            "score": 92,
+            "geohash": "u1jk0gd"
+        },
+        {
+            "station": "Haltern",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.731079795420854,
+            "lon": 7.186580146190712,
+            "score": 39,
+            "geohash": "u1jn793"
+        },
+        {
+            "station": "Haspertalsperre_Zu",
+            "recordTime": "2018-07-17T17:05",
+            "lat": 51.29626211596373,
+            "lon": 7.43112219826388,
+            "score": 8,
+            "geohash": "u1j7c45"
+        },
+        {
+            "station": "Haus_Langenfeld",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.39064891760809,
+            "lon": 6.336416800756676,
+            "score": 3,
+            "geohash": "u1hs25q"
+        },
+        {
+            "station": "Heek",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.11725033010227,
+            "lon": 7.116785070980244,
+            "score": 19,
+            "geohash": "u1m03zw"
+        },
+        {
+            "station": "Herbram_W",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.67039503004874,
+            "lon": 8.915781659129316,
+            "score": 92,
+            "geohash": "u1nmfyk"
+        },
+        {
+            "station": "Herford_2",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.1334218218119,
+            "lon": 8.67092388376881,
+            "score": 37,
+            "geohash": "u1q0t69"
+        },
+        {
+            "station": "Herrntrop",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.087456421827035,
+            "lon": 8.105472883477946,
+            "score": 27,
+            "geohash": "u1jf8kn"
+        },
+        {
+            "station": "Herzogenrath_1",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.86650988463902,
+            "lon": 6.094833546479497,
+            "score": 99,
+            "geohash": "u1h36ey"
+        },
+        {
+            "station": "Herzogenrath_2",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.86659342368485,
+            "lon": 6.097827541731093,
+            "score": 96,
+            "geohash": "u1h36gb"
+        },
+        {
+            "station": "Hoerstel",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.32029650938614,
+            "lon": 7.588070039619119,
+            "score": 42,
+            "geohash": "u1m3sst"
+        },
+        {
+            "station": "Hoffnungsthal",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.910869407106816,
+            "lon": 7.193795855807997,
+            "score": 68,
+            "geohash": "u1j1esn"
+        },
+        {
+            "station": "Hommerich",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.00879113678366,
+            "lon": 7.280244388459051,
+            "score": 0,
+            "geohash": "u1j4jtv"
+        },
+        {
+            "station": "Iserlohn-Hennen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.448199588149684,
+            "lon": 7.662296679364826,
+            "score": 94,
+            "geohash": "u1jkwmg"
+        },
+        {
+            "station": "Isselburg",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.832528786699974,
+            "lon": 6.471508413442976,
+            "score": 24,
+            "geohash": "u1hwg7b"
+        },
+        {
+            "station": "Juelich-Stadion",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.92489973574916,
+            "lon": 6.349229667648784,
+            "score": 33,
+            "geohash": "u1h98qx"
+        },
+        {
+            "station": "Kapellen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.57001136653752,
+            "lon": 6.3597265358509105,
+            "score": 32,
+            "geohash": "u1ht2sp"
+        },
+        {
+            "station": "Kesseler_3",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.662974978432736,
+            "lon": 8.089384629819186,
+            "score": 1,
+            "geohash": "u1jvbhf"
+        },
+        {
+            "station": "Kickenbach",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.108873815451524,
+            "lon": 8.100402567077,
+            "score": 27,
+            "geohash": "u1jfb24"
+        },
+        {
+            "station": "Kierspe",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.13989507085166,
+            "lon": 7.614919316613703,
+            "score": 49,
+            "geohash": "u1j6vm9"
+        },
+        {
+            "station": "Kirchberg1",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.892048843818046,
+            "lon": 6.358633361224554,
+            "score": 63,
+            "geohash": "u1h988w"
+        },
+        {
+            "station": "Kirchberg2",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.8923219124228,
+            "lon": 6.359570738052252,
+            "score": 10,
+            "geohash": "u1h988w"
+        },
+        {
+            "station": "Kluserbruecke",
+            "recordTime": "2018-07-17T17:05",
+            "lat": 51.255562458675605,
+            "lon": 7.158433991774364,
+            "score": 2,
+            "geohash": "u1j5dfu"
+        },
+        {
+            "station": "KornelimuensterW",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.72815144082268,
+            "lon": 6.183308076855246,
+            "score": 36,
+            "geohash": "u1h2sdy"
+        },
+        {
+            "station": "Kreuztal",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.95875529669758,
+            "lon": 7.9951595697543905,
+            "score": 93,
+            "geohash": "u1j9vuv"
+        },
+        {
+            "station": "Lamersdorf",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.85226123758196,
+            "lon": 6.354474407535399,
+            "score": 68,
+            "geohash": "u1h9297"
+        },
+        {
+            "station": "Langenich",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.864332672535255,
+            "lon": 6.67266257759969,
+            "score": 44,
+            "geohash": "u1h9rgd"
+        },
+        {
+            "station": "Legden",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.03984441752102,
+            "lon": 7.0820707740054285,
+            "score": 23,
+            "geohash": "u1m011t"
+        },
+        {
+            "station": "Lehen_2",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.261246364946786,
+            "lon": 7.739348230263985,
+            "score": 78,
+            "geohash": "u1m921g"
+        },
+        {
+            "station": "Leven",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.71530265786856,
+            "lon": 7.297449676289992,
+            "score": 29,
+            "geohash": "u1jnnn3"
+        },
+        {
+            "station": "Liemergrund",
+            "recordTime": "2018-07-17T17:05",
+            "lat": 52.029734828288916,
+            "lon": 8.850229643990811,
+            "score": 5,
+            "geohash": "u1nrcrs"
+        },
+        {
+            "station": "Lindemannsheide_Alt",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.054935424271555,
+            "lon": 8.766693419182559,
+            "score": 9,
+            "geohash": "u1q0pkr"
+        },
+        {
+            "station": "Lindemannsheide_neu",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.05335365076975,
+            "lon": 8.771601848511661,
+            "score": 86,
+            "geohash": "u1q0ps5"
+        },
+        {
+            "station": "Linnich",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.98071793077164,
+            "lon": 6.27492167579102,
+            "score": 73,
+            "geohash": "u1h6nbc"
+        },
+        {
+            "station": "Lippstadt-Nordumflut",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.676866753904726,
+            "lon": 8.334600034515228,
+            "score": 50,
+            "geohash": "u1jvvxm"
+        },
+        {
+            "station": "Loehne",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.19788043134896,
+            "lon": 8.710157073484845,
+            "score": 24,
+            "geohash": "u1q0ynq"
+        },
+        {
+            "station": "Lohmar",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.84161817423483,
+            "lon": 7.201329467301258,
+            "score": 91,
+            "geohash": "u1j15z7"
+        },
+        {
+            "station": "Lutum",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.984190776417776,
+            "lon": 7.221780786979506,
+            "score": 33,
+            "geohash": "u1jpsr6"
+        },
+        {
+            "station": "Menden_1",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.79789824971024,
+            "lon": 7.159144164798521,
+            "score": 37,
+            "geohash": "u1j0fzm"
+        },
+        {
+            "station": "Menden_Sauerland",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.44786268104691,
+            "lon": 7.7771895836449065,
+            "score": 8,
+            "geohash": "u1js8vz"
+        },
+        {
+            "station": "Meschede",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.34785735079018,
+            "lon": 8.280216960298604,
+            "score": 5,
+            "geohash": "u1juh7t"
+        },
+        {
+            "station": "Meschede4",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.34205371276374,
+            "lon": 8.2840120427679,
+            "score": 48,
+            "geohash": "u1juhd8"
+        },
+        {
+            "station": "Monschau",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.554351249580634,
+            "lon": 6.245886307475074,
+            "score": 41,
+            "geohash": "u0urw5h"
+        },
+        {
+            "station": "Morenhoven",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.66472748623645,
+            "lon": 6.952757162527036,
+            "score": 41,
+            "geohash": "u1hbnpn"
+        },
+        {
+            "station": "Mueschede",
+            "recordTime": "2018-07-17T17:05",
+            "lat": 51.40757062854393,
+            "lon": 7.991909158241218,
+            "score": 69,
+            "geohash": "u1jsmy7"
+        },
+        {
+            "station": "Muesse",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.04952337926774,
+            "lon": 8.283966578168009,
+            "score": 51,
+            "geohash": "u1jfkt2"
+        },
+        {
+            "station": "Mulartshuette",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.69080690677434,
+            "lon": 6.209973805937742,
+            "score": 88,
+            "geohash": "u1h2m7c"
+        },
+        {
+            "station": "Neheim3",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.455453076634996,
+            "lon": 7.953850154207988,
+            "score": 11,
+            "geohash": "u1jsszp"
+        },
+        {
+            "station": "Neubrueck",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.1321658692252,
+            "lon": 6.648826170411586,
+            "score": 65,
+            "geohash": "u1hdzk3"
+        },
+        {
+            "station": "Neuhaus1",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.74489050522534,
+            "lon": 8.731242898178847,
+            "score": 99,
+            "geohash": "u1nnqev"
+        },
+        {
+            "station": "Neuhaus2",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.73412967547353,
+            "lon": 8.70935362987391,
+            "score": 96,
+            "geohash": "u1nnq1v"
+        },
+        {
+            "station": "Niederdielfen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.863177508191505,
+            "lon": 8.080101558796306,
+            "score": 2,
+            "geohash": "u1j9rg7"
+        },
+        {
+            "station": "Niederschelden",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.845106196956465,
+            "lon": 7.966736876101265,
+            "score": 40,
+            "geohash": "u1j9m21"
+        },
+        {
+            "station": "Nordborchen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.663379871082114,
+            "lon": 8.718336967409213,
+            "score": 23,
+            "geohash": "u1njymh"
+        },
+        {
+            "station": "Oberahle",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.18868652355258,
+            "lon": 8.514272211948901,
+            "score": 45,
+            "geohash": "u1q0csx"
+        },
+        {
+            "station": "Oedt",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.321831677145134,
+            "lon": 6.372072484276888,
+            "score": 56,
+            "geohash": "u1hecnb"
+        },
+        {
+            "station": "Olfen-Fuecht.Muehle",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.721551891670174,
+            "lon": 7.350364801648616,
+            "score": 87,
+            "geohash": "u1jnpr8"
+        },
+        {
+            "station": "Olsberg",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.351404645845484,
+            "lon": 8.488023991800489,
+            "score": 98,
+            "geohash": "u1nh1hh"
+        },
+        {
+            "station": "Opladen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.07021472883297,
+            "lon": 6.994166199329365,
+            "score": 25,
+            "geohash": "u1hfx1h"
+        },
+        {
+            "station": "Ottbergen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.708432579937806,
+            "lon": 9.321569099546378,
+            "score": 81,
+            "geohash": "u1nwhj5"
+        },
+        {
+            "station": "Overhagen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.64818745578725,
+            "lon": 8.327402885243247,
+            "score": 15,
+            "geohash": "u1jvv6r"
+        },
+        {
+            "station": "Paderborn1",
+            "recordTime": "2018-07-17T17:10",
+            "lat": 51.72248072735415,
+            "lon": 8.750152726314955,
+            "score": 11,
+            "geohash": "u1nnppg"
+        },
+        {
+            "station": "Paderborn2",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.72690069646725,
+            "lon": 8.744206605801049,
+            "score": 33,
+            "geohash": "u1nnqbx"
+        },
+        {
+            "station": "Patzlar",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.76065152522048,
+            "lon": 7.456373925140231,
+            "score": 80,
+            "geohash": "u1jq3wt"
+        },
+        {
+            "station": "Pottenhausen",
+            "recordTime": "2018-07-17T17:05",
+            "lat": 52.01660051521084,
+            "lon": 8.750310002678265,
+            "score": 76,
+            "geohash": "u1npzj7"
+        },
+        {
+            "station": "Randerath",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.01508472782514,
+            "lon": 6.179779054775786,
+            "score": 95,
+            "geohash": "u1h6hx5"
+        },
+        {
+            "station": "Raumland",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.031445810847934,
+            "lon": 8.386268577241303,
+            "score": 93,
+            "geohash": "u1jfqcf"
+        },
+        {
+            "station": "Rheda",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.85249782181493,
+            "lon": 8.296121658000787,
+            "score": 95,
+            "geohash": "u1jyuz3"
+        },
+        {
+            "station": "Rhedebruegge",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.82770016612945,
+            "lon": 6.752201160275625,
+            "score": 41,
+            "geohash": "u1hycdu"
+        },
+        {
+            "station": "Rodenbeck",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.28222664208751,
+            "lon": 8.878243231158327,
+            "score": 33,
+            "geohash": "u1q36j8"
+        },
+        {
+            "station": "Roenkhausen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.21624624830273,
+            "lon": 7.9545845687630665,
+            "score": 84,
+            "geohash": "u1jem58"
+        },
+        {
+            "station": "Roxeler",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.95372540775891,
+            "lon": 7.562811402633493,
+            "score": 3,
+            "geohash": "u1jrs1g"
+        },
+        {
+            "station": "Rustenhof",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.706484758393806,
+            "lon": 9.134561325454818,
+            "score": 4,
+            "geohash": "u1nqpug"
+        },
+        {
+            "station": "Schermbeck_1",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.67371784679412,
+            "lon": 6.851364082052098,
+            "score": 60,
+            "geohash": "u1hvgyv"
+        },
+        {
+            "station": "Schieder",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.91407161958548,
+            "lon": 9.144878245335413,
+            "score": 85,
+            "geohash": "u1nx24e"
+        },
+        {
+            "station": "Schieder-Nessenberg",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.91091502577848,
+            "lon": 9.130097787505825,
+            "score": 6,
+            "geohash": "u1nrrf0"
+        },
+        {
+            "station": "Schieder-Stausee",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.934960222329465,
+            "lon": 9.193338295010186,
+            "score": 67,
+            "geohash": "u1nx3nq"
+        },
+        {
+            "station": "Schleiden",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.5248186890655,
+            "lon": 6.468393094222972,
+            "score": 37,
+            "geohash": "u0ux7jy"
+        },
+        {
+            "station": "Selhausen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.859641103581424,
+            "lon": 6.4335690069973355,
+            "score": 27,
+            "geohash": "u1h966s"
+        },
+        {
+            "station": "Selm-Ondrup",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.707587257154145,
+            "lon": 7.49154272987144,
+            "score": 19,
+            "geohash": "u1jq4mp"
+        },
+        {
+            "station": "Senden-Schoelling",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.839948538306466,
+            "lon": 7.465711323376256,
+            "score": 47,
+            "geohash": "u1jqcvh"
+        },
+        {
+            "station": "Siegburg_Kald.",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.79765012752064,
+            "lon": 7.257142394414824,
+            "score": 14,
+            "geohash": "u1j0vpk"
+        },
+        {
+            "station": "Stadtlohn",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.995671381768396,
+            "lon": 6.905583254598165,
+            "score": 87,
+            "geohash": "u1hzv1s"
+        },
+        {
+            "station": "Stadtlohn Schanzring",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.9947668279101,
+            "lon": 6.910345242847805,
+            "score": 53,
+            "geohash": "u1hzv1r"
+        },
+        {
+            "station": "Stah",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.097892715984244,
+            "lon": 6.104515159092543,
+            "score": 94,
+            "geohash": "u1h6dyj"
+        },
+        {
+            "station": "Steinhorst",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.81831692409682,
+            "lon": 8.53375943295241,
+            "score": 78,
+            "geohash": "u1nnf1n"
+        },
+        {
+            "station": "Stephansohl",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.222982936689874,
+            "lon": 7.565210769857195,
+            "score": 67,
+            "geohash": "u1j7khu"
+        },
+        {
+            "station": "Sueddinker",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.631427652713086,
+            "lon": 7.932005892058633,
+            "score": 3,
+            "geohash": "u1jtsrp"
+        },
+        {
+            "station": "Suesterseel",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.99654286407106,
+            "lon": 5.930061537957682,
+            "score": 47,
+            "geohash": "u1h4ngw"
+        },
+        {
+            "station": "Veert",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.51881931053212,
+            "lon": 6.3099125968864325,
+            "score": 30,
+            "geohash": "u1hmpdd"
+        },
+        {
+            "station": "Versmold_W",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.011978679466026,
+            "lon": 8.16075135758032,
+            "score": 18,
+            "geohash": "u1jzcsq"
+        },
+        {
+            "station": "Villigst",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.435986288455815,
+            "lon": 7.581091579641015,
+            "score": 69,
+            "geohash": "u1jkse8"
+        },
+        {
+            "station": "Vossheide",
+            "recordTime": "2018-07-17T17:05",
+            "lat": 52.016210835971464,
+            "lon": 8.959621566600187,
+            "score": 45,
+            "geohash": "u1nrgvk"
+        },
+        {
+            "station": "Weeze",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.62629809535388,
+            "lon": 6.212519352429427,
+            "score": 99,
+            "geohash": "u1hmtq7"
+        },
+        {
+            "station": "Weidenau",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.89401972028442,
+            "lon": 8.026442196204307,
+            "score": 21,
+            "geohash": "u1j9w8u"
+        },
+        {
+            "station": "Weidenau2",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.89566515337991,
+            "lon": 8.023180006627584,
+            "score": 77,
+            "geohash": "u1j9w96"
+        },
+        {
+            "station": "Weilerswist",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.766056189741995,
+            "lon": 6.846014097823572,
+            "score": 85,
+            "geohash": "u1hbgc9"
+        },
+        {
+            "station": "Weine",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.54201122292654,
+            "lon": 8.525701445715443,
+            "score": 88,
+            "geohash": "u1nj4nb"
+        },
+        {
+            "station": "Welda",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.45364307118869,
+            "lon": 9.115452490337306,
+            "score": 5,
+            "geohash": "u1nkxqv"
+        },
+        {
+            "station": "Wenholthausen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.29427090643478,
+            "lon": 8.174921593502372,
+            "score": 2,
+            "geohash": "u1jgf1b"
+        },
+        {
+            "station": "Westheim",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.49236903640815,
+            "lon": 8.914107916562989,
+            "score": 61,
+            "geohash": "u1nkfvg"
+        },
+        {
+            "station": "Westtuennen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.666326798070344,
+            "lon": 7.8669401535767065,
+            "score": 22,
+            "geohash": "u1jtgj8"
+        },
+        {
+            "station": "Wetter_Wengern_1",
+            "recordTime": "2018-07-17T17:05",
+            "lat": 51.400867632588664,
+            "lon": 7.341831421633536,
+            "score": 72,
+            "geohash": "u1jhrj4"
+        },
+        {
+            "station": "Wettringen_B70",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.21494000245228,
+            "lon": 7.323742161666137,
+            "score": 30,
+            "geohash": "u1m1n9k"
+        },
+        {
+            "station": "Wolbeck",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.90298964179641,
+            "lon": 7.781571019217169,
+            "score": 41,
+            "geohash": "u1jx30d"
+        },
+        {
+            "station": "Ahlen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.74471298085715,
+            "lon": 7.918965328368297,
+            "score": 96,
+            "geohash": "u1jwk5y"
+        },
+        {
+            "station": "Glueder",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.1340937501414,
+            "lon": 7.121833056627191,
+            "score": 55,
+            "geohash": "u1j4fh9"
+        },
+        {
+            "station": "Lippstadt_1",
+            "recordTime": "2018-07-17T18:00",
+            "lat": 51.673926427436086,
+            "lon": 8.336176086017744,
+            "score": 35,
+            "geohash": "u1jvvwy"
+        },
+        {
+            "station": "Neuhof",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.383099019113565,
+            "lon": 6.7485129563768735,
+            "score": 82,
+            "geohash": "u0uy9ef"
+        },
+        {
+            "station": "Niederpleis",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.77350517074486,
+            "lon": 7.2157162643766135,
+            "score": 42,
+            "geohash": "u1j0u5n"
+        },
+        {
+            "station": "Oeventrop",
+            "recordTime": "2018-07-17T18:00",
+            "lat": 51.398053091662,
+            "lon": 8.13063547254622,
+            "score": 9,
+            "geohash": "u1ju3h8"
+        },
+        {
+            "station": "Schwaney",
+            "recordTime": "2018-07-17T17:30",
+            "lat": 51.71660752026995,
+            "lon": 8.923874393080746,
+            "score": 20,
+            "geohash": "u1nq5nd"
+        },
+        {
+            "station": "Altena_Rahmedestrasse",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.28622394885558,
+            "lon": 7.677046823637043,
+            "score": 57,
+            "geohash": "u1j7y8q"
+        },
+        {
+            "station": "Altenbeken2",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.76111998569744,
+            "lon": 8.918264557884266,
+            "score": 89,
+            "geohash": "u1nq6yy"
+        },
+        {
+            "station": "Ammeloe",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.080996363541836,
+            "lon": 6.77442031984512,
+            "score": 59,
+            "geohash": "u1kb61h"
+        },
+        {
+            "station": "Gescher",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.93854013088848,
+            "lon": 7.072268486294831,
+            "score": 18,
+            "geohash": "u1jp2zj"
+        },
+        {
+            "station": "Havert",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.03571358482131,
+            "lon": 5.909481587329099,
+            "score": 19,
+            "geohash": "u1h4q6z"
+        },
+        {
+            "station": "Hemer-Becke",
+            "recordTime": "2018-07-17T17:05",
+            "lat": 51.40069772593458,
+            "lon": 7.788410487797381,
+            "score": 89,
+            "geohash": "u1js3jp"
+        },
+        {
+            "station": "Iserlohn",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.400926219842646,
+            "lon": 7.700623420757781,
+            "score": 6,
+            "geohash": "u1jkrjr"
+        },
+        {
+            "station": "Kall-Sportplatz",
+            "recordTime": "2018-07-17T18:00",
+            "lat": 50.54492265487833,
+            "lon": 6.553791586178765,
+            "score": 40,
+            "geohash": "u0uxt1k"
+        },
+        {
+            "station": "Morsbach",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.861294345759795,
+            "lon": 7.740662147878297,
+            "score": 38,
+            "geohash": "u1j925h"
+        },
+        {
+            "station": "Ratingen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.30381184147741,
+            "lon": 6.8120744676674185,
+            "score": 33,
+            "geohash": "u1hgg58"
+        },
+        {
+            "station": "Upsprunge",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.65650797746167,
+            "lon": 8.602455265069997,
+            "score": 4,
+            "geohash": "u1njggb"
+        },
+        {
+            "station": "Zerkall",
+            "recordTime": "2018-07-17T18:00",
+            "lat": 50.69271598154994,
+            "lon": 6.452309287742176,
+            "score": 3,
+            "geohash": "u1h86u6"
+        },
+        {
+            "station": "Avenwedde",
+            "recordTime": "2018-07-17T17:10",
+            "lat": 51.910486475651304,
+            "lon": 8.496737602221808,
+            "score": 81,
+            "geohash": "u1np365"
+        },
+        {
+            "station": "Darfeld",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.05652143379028,
+            "lon": 7.266986832867532,
+            "score": 91,
+            "geohash": "u1m0jke"
+        },
+        {
+            "station": "Espeln",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.83074493002276,
+            "lon": 8.595002191525383,
+            "score": 15,
+            "geohash": "u1nnge6"
+        },
+        {
+            "station": "Moeschemer-Muehle",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.57155800586501,
+            "lon": 6.760356572447533,
+            "score": 18,
+            "geohash": "u0uz9y6"
+        },
+        {
+            "station": "Multhaeupter Hammer",
+            "recordTime": "2018-07-17T17:10",
+            "lat": 51.49051900058898,
+            "lon": 8.593746017510478,
+            "score": 39,
+            "geohash": "u1nhgt9"
+        },
+        {
+            "station": "Neuhaus3",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.76581793140484,
+            "lon": 8.717830331258014,
+            "score": 97,
+            "geohash": "u1nnqrs"
+        },
+        {
+            "station": "Geisbach",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.76584417340975,
+            "lon": 7.30010250049604,
+            "score": 58,
+            "geohash": "u1j0y1e"
+        },
+        {
+            "station": "Broel",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.78604357629063,
+            "lon": 7.319941474880337,
+            "score": 31,
+            "geohash": "u1j0yt6"
+        },
+        {
+            "station": "Haaren",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 50.794915089117296,
+            "lon": 6.129209586657456,
+            "score": 77,
+            "geohash": "u1h2gqz"
+        },
+        {
+            "station": "Honsdorf",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.00476853348884,
+            "lon": 6.181673912503352,
+            "score": 71,
+            "geohash": "u1h6htj"
+        },
+        {
+            "station": "Lippspringe1",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.78050601919228,
+            "lon": 8.821470420264854,
+            "score": 78,
+            "geohash": "u1nq8dr"
+        },
+        {
+            "station": "Marienfeld_W",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.948373086560785,
+            "lon": 8.255409218579683,
+            "score": 23,
+            "geohash": "u1jzebg"
+        },
+        {
+            "station": "Balve_Helle",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.344782170204496,
+            "lon": 7.878606885977582,
+            "score": 13,
+            "geohash": "u1js571"
+        },
+        {
+            "station": "Bierde",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.370181699966274,
+            "lon": 9.041875458404215,
+            "score": 60,
+            "geohash": "u1q3vv8"
+        },
+        {
+            "station": "Blomberg",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.9248306100459,
+            "lon": 9.105794388862297,
+            "score": 83,
+            "geohash": "u1nrrhw"
+        },
+        {
+            "station": "Brake",
+            "recordTime": "2018-07-17T18:00",
+            "lat": 52.07052554543447,
+            "lon": 8.618441039931712,
+            "score": 9,
+            "geohash": "u1q0hp5"
+        },
+        {
+            "station": "Essen-Hespertal",
+            "recordTime": "2018-07-17T17:45",
+            "lat": 51.36824182191576,
+            "lon": 7.0439517635373,
+            "score": 37,
+            "geohash": "u1jh0r3"
+        },
+        {
+            "station": "Cappel",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.695206673396086,
+            "lon": 8.297045243902875,
+            "score": 62,
+            "geohash": "u1jyhfc"
+        },
+        {
+            "station": "Hagen-Maecking2",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.3211728378913,
+            "lon": 7.48166547750329,
+            "score": 5,
+            "geohash": "u1j7fnx"
+        },
+        {
+            "station": "Hemer_Hessufer",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.37986915287127,
+            "lon": 7.764934653425764,
+            "score": 52,
+            "geohash": "u1js29q"
+        },
+        {
+            "station": "Hemer_Uhlenhof",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.38074609306151,
+            "lon": 7.769653095432779,
+            "score": 64,
+            "geohash": "u1js2c9"
+        },
+        {
+            "station": "Hilden_1",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.15967223178529,
+            "lon": 6.924554663581825,
+            "score": 70,
+            "geohash": "u1hgj96"
+        },
+        {
+            "station": "Hopsten",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.37360689768141,
+            "lon": 7.599576842451836,
+            "score": 24,
+            "geohash": "u1m3uym"
+        },
+        {
+            "station": "Landesgrenze",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.22831576618679,
+            "lon": 6.087850734106353,
+            "score": 94,
+            "geohash": "u1h76tc"
+        },
+        {
+            "station": "Lippstadt2",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.672500820669775,
+            "lon": 8.33213325619416,
+            "score": 84,
+            "geohash": "u1jvvwe"
+        },
+        {
+            "station": "Manfort",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.03825274570307,
+            "lon": 7.007372521743628,
+            "score": 28,
+            "geohash": "u1hfr7n"
+        },
+        {
+            "station": "Menden_Oberroedingh",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.39890358306666,
+            "lon": 7.84220779277779,
+            "score": 26,
+            "geohash": "u1js6ky"
+        },
+        {
+            "station": "Niederntudorf",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.641022101172545,
+            "lon": 8.681263495426473,
+            "score": 63,
+            "geohash": "u1njv8c"
+        },
+        {
+            "station": "Oberkirchen",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.15859952960956,
+            "lon": 8.37444417852873,
+            "score": 36,
+            "geohash": "u1jgn94"
+        },
+        {
+            "station": "Pannenmuehle",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.19927567201007,
+            "lon": 6.2297690990984504,
+            "score": 39,
+            "geohash": "u1h7mb8"
+        },
+        {
+            "station": "Sendenhorst",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.83345809600926,
+            "lon": 7.881196679833992,
+            "score": 96,
+            "geohash": "u1jwg7f"
+        },
+        {
+            "station": "Uchtdorf",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 52.159867395899134,
+            "lon": 9.099187612850764,
+            "score": 30,
+            "geohash": "u1q2xp3"
+        },
+        {
+            "station": "Molzmuehle",
+            "recordTime": "2018-07-17T17:15",
+            "lat": 51.161874361491364,
+            "lon": 6.273280073653399,
+            "score": 42,
+            "geohash": "u1h7nc8"
+        },
+        {
+            "station": "Vossheide_1",
+            "recordTime": "2018-07-17T17:10",
+            "lat": 52.010159684097886,
+            "lon": 8.958898521876586,
+            "score": 74,
+            "geohash": "u1nrgu5"
+        }
+    ],
+    "8hours": [
+        {
+            "station": "Rustenhof",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.706484758393806,
+            "lon": 9.134561325454818,
+            "score": 53,
+            "geohash": "u1nqpug"
+        },
+        {
+            "station": "Arloff",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.595525869638124,
+            "lon": 6.792256596165651,
+            "score": 52,
+            "geohash": "u0uzfd9"
+        },
+        {
+            "station": "Derschlag",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.00778645754559,
+            "lon": 7.626142201334498,
+            "score": 79,
+            "geohash": "u1j6jt9"
+        },
+        {
+            "station": "Friesheim",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.75517516599674,
+            "lon": 6.772883434021707,
+            "score": 34,
+            "geohash": "u1hbdpe"
+        },
+        {
+            "station": "Haltern",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.731079795420854,
+            "lon": 7.186580146190712,
+            "score": 75,
+            "geohash": "u1jn793"
+        },
+        {
+            "station": "Haspertalsperre_Zu",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.29626211596373,
+            "lon": 7.43112219826388,
+            "score": 18,
+            "geohash": "u1j7c45"
+        },
+        {
+            "station": "Herbram_W",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.67039503004874,
+            "lon": 8.915781659129316,
+            "score": 71,
+            "geohash": "u1nmfyk"
+        },
+        {
+            "station": "Herford_2",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.1334218218119,
+            "lon": 8.67092388376881,
+            "score": 31,
+            "geohash": "u1q0t69"
+        },
+        {
+            "station": "Hoerstel",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.32029650938614,
+            "lon": 7.588070039619119,
+            "score": 9,
+            "geohash": "u1m3sst"
+        },
+        {
+            "station": "Hoffnungsthal",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.910869407106816,
+            "lon": 7.193795855807997,
+            "score": 84,
+            "geohash": "u1j1esn"
+        },
+        {
+            "station": "Kierspe",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.13989507085166,
+            "lon": 7.614919316613703,
+            "score": 42,
+            "geohash": "u1j6vm9"
+        },
+        {
+            "station": "Leven",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.71530265786856,
+            "lon": 7.297449676289992,
+            "score": 63,
+            "geohash": "u1jnnn3"
+        },
+        {
+            "station": "Lippstadt_1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.673926427436086,
+            "lon": 8.336176086017744,
+            "score": 93,
+            "geohash": "u1jvvwy"
+        },
+        {
+            "station": "Monschau",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.554351249580634,
+            "lon": 6.245886307475074,
+            "score": 71,
+            "geohash": "u0urw5h"
+        },
+        {
+            "station": "Morsbach",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.861294345759795,
+            "lon": 7.740662147878297,
+            "score": 87,
+            "geohash": "u1j925h"
+        },
+        {
+            "station": "Weidenau",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.89401972028442,
+            "lon": 8.026442196204307,
+            "score": 7,
+            "geohash": "u1j9w8u"
+        },
+        {
+            "station": "Westtuennen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.666326798070344,
+            "lon": 7.8669401535767065,
+            "score": 30,
+            "geohash": "u1jtgj8"
+        },
+        {
+            "station": "Ahlen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.74471298085715,
+            "lon": 7.918965328368297,
+            "score": 24,
+            "geohash": "u1jwk5y"
+        },
+        {
+            "station": "Ahmsen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.09100357026102,
+            "lon": 8.701493951430361,
+            "score": 48,
+            "geohash": "u1q0q4b"
+        },
+        {
+            "station": "Albersloh",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.88391062938489,
+            "lon": 7.728152412085806,
+            "score": 13,
+            "geohash": "u1jrpv5"
+        },
+        {
+            "station": "Altena",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.28945050111217,
+            "lon": 7.67609361098847,
+            "score": 42,
+            "geohash": "u1j7y8v"
+        },
+        {
+            "station": "Altena_Rahmedestrasse",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.28622394885558,
+            "lon": 7.677046823637043,
+            "score": 83,
+            "geohash": "u1j7y8q"
+        },
+        {
+            "station": "Altenbeken2",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.76111998569744,
+            "lon": 8.918264557884266,
+            "score": 5,
+            "geohash": "u1nq6yy"
+        },
+        {
+            "station": "Altenburg_1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.897341686164175,
+            "lon": 6.373552242598635,
+            "score": 88,
+            "geohash": "u1h9919"
+        },
+        {
+            "station": "Ammeloe",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.080996363541836,
+            "lon": 6.77442031984512,
+            "score": 69,
+            "geohash": "u1kb61h"
+        },
+        {
+            "station": "Appelhuelsen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.88547096725793,
+            "lon": 7.4455622255381755,
+            "score": 92,
+            "geohash": "u1jr1mm"
+        },
+        {
+            "station": "Bachum",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.469883582312335,
+            "lon": 7.943614557416842,
+            "score": 87,
+            "geohash": "u1jsucb"
+        },
+        {
+            "station": "Baltes",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.13576049590359,
+            "lon": 6.291717868003734,
+            "score": 91,
+            "geohash": "u1h6zhv"
+        },
+        {
+            "station": "Balve-Garbeck",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.309991500898995,
+            "lon": 7.841735323440349,
+            "score": 27,
+            "geohash": "u1jefkw"
+        },
+        {
+            "station": "Beddelhausen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.99937259359137,
+            "lon": 8.487732365601232,
+            "score": 69,
+            "geohash": "u1n41hh"
+        },
+        {
+            "station": "Belecke_1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.48836467847635,
+            "lon": 8.326847734861705,
+            "score": 51,
+            "geohash": "u1juvmp"
+        },
+        {
+            "station": "Bentfeld",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.74883403223376,
+            "lon": 8.63052973627998,
+            "score": 70,
+            "geohash": "u1nnkks"
+        },
+        {
+            "station": "Bessenich",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.71789940236043,
+            "lon": 6.65531696488936,
+            "score": 39,
+            "geohash": "u1h8x2y"
+        },
+        {
+            "station": "Bliesheim",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.77910780341911,
+            "lon": 6.825724200426945,
+            "score": 34,
+            "geohash": "u1hbgk4"
+        },
+        {
+            "station": "Boekenfoerde_2",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.63569122297246,
+            "lon": 8.388652324774531,
+            "score": 20,
+            "geohash": "u1jvwzu"
+        },
+        {
+            "station": "Brakel",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.71339341357696,
+            "lon": 9.190684163932746,
+            "score": 3,
+            "geohash": "u1nw1nh"
+        },
+        {
+            "station": "Bredelar",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.409773657792904,
+            "lon": 8.765318803272143,
+            "score": 1,
+            "geohash": "u1nhrqy"
+        },
+        {
+            "station": "Broel",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.78604357629063,
+            "lon": 7.319941474880337,
+            "score": 58,
+            "geohash": "u1j0yt6"
+        },
+        {
+            "station": "Broeleck",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.841250454267325,
+            "lon": 7.416051646989901,
+            "score": 6,
+            "geohash": "u1j30z2"
+        },
+        {
+            "station": "Bueren",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.549489428625606,
+            "lon": 8.56437642157267,
+            "score": 4,
+            "geohash": "u1nj6bk"
+        },
+        {
+            "station": "Daemmerwald",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.738466667621104,
+            "lon": 6.7650927571108905,
+            "score": 46,
+            "geohash": "u1hy3fw"
+        },
+        {
+            "station": "Einen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.972494196790954,
+            "lon": 7.898395084686952,
+            "score": 9,
+            "geohash": "u1jxetr"
+        },
+        {
+            "station": "Eitorf",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.77698149836617,
+            "lon": 7.44264951936081,
+            "score": 89,
+            "geohash": "u1j2c7e"
+        },
+        {
+            "station": "Eschweiler",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.81470697948823,
+            "lon": 6.28863292739942,
+            "score": 22,
+            "geohash": "u1h3p4e"
+        },
+        {
+            "station": "Feudingen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.93876289428183,
+            "lon": 8.325079338773046,
+            "score": 82,
+            "geohash": "u1jcv3n"
+        },
+        {
+            "station": "Fiestel",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.35325408941963,
+            "lon": 8.558631950371243,
+            "score": 11,
+            "geohash": "u1q1ff8"
+        },
+        {
+            "station": "Geldern",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.52342526484676,
+            "lon": 6.329234430835782,
+            "score": 9,
+            "geohash": "u1ht058"
+        },
+        {
+            "station": "Gemuend",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.57770817048422,
+            "lon": 6.491224240824602,
+            "score": 15,
+            "geohash": "u0uxexq"
+        },
+        {
+            "station": "Gescher",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.93854013088848,
+            "lon": 7.072268486294831,
+            "score": 10,
+            "geohash": "u1jp2zj"
+        },
+        {
+            "station": "Glesch",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.974419252048754,
+            "lon": 6.595789742253462,
+            "score": 31,
+            "geohash": "u1h9ypd"
+        },
+        {
+            "station": "Goch",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.6838984830263,
+            "lon": 6.150844763206087,
+            "score": 60,
+            "geohash": "u1hq5by"
+        },
+        {
+            "station": "Greven",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.094195609827786,
+            "lon": 7.602723661658877,
+            "score": 76,
+            "geohash": "u1m2m52"
+        },
+        {
+            "station": "Gronau",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.21793685184334,
+            "lon": 7.024660046807519,
+            "score": 61,
+            "geohash": "u1kcpcg"
+        },
+        {
+            "station": "Haaren",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.794915089117296,
+            "lon": 6.129209586657456,
+            "score": 18,
+            "geohash": "u1h2gqz"
+        },
+        {
+            "station": "Hagen-Ambrock",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.32304316299746,
+            "lon": 7.516737757800766,
+            "score": 38,
+            "geohash": "u1j7gp1"
+        },
+        {
+            "station": "Hagen-Eckesey",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.385206195675394,
+            "lon": 7.449826426438786,
+            "score": 45,
+            "geohash": "u1jk3d2"
+        },
+        {
+            "station": "Hagen-Haspe",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.34801854667026,
+            "lon": 7.418656808709423,
+            "score": 39,
+            "geohash": "u1jk0gd"
+        },
+        {
+            "station": "Haus_Langenfeld",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.39064891760809,
+            "lon": 6.336416800756676,
+            "score": 88,
+            "geohash": "u1hs25q"
+        },
+        {
+            "station": "Havert",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.03571358482131,
+            "lon": 5.909481587329099,
+            "score": 79,
+            "geohash": "u1h4q6z"
+        },
+        {
+            "station": "Heek",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.11725033010227,
+            "lon": 7.116785070980244,
+            "score": 99,
+            "geohash": "u1m03zw"
+        },
+        {
+            "station": "Hemer-Becke",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.40069772593458,
+            "lon": 7.788410487797381,
+            "score": 41,
+            "geohash": "u1js3jp"
+        },
+        {
+            "station": "Herrntrop",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.087456421827035,
+            "lon": 8.105472883477946,
+            "score": 85,
+            "geohash": "u1jf8kn"
+        },
+        {
+            "station": "Herzogenrath_1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.86650988463902,
+            "lon": 6.094833546479497,
+            "score": 15,
+            "geohash": "u1h36ey"
+        },
+        {
+            "station": "Herzogenrath_2",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.86659342368485,
+            "lon": 6.097827541731093,
+            "score": 62,
+            "geohash": "u1h36gb"
+        },
+        {
+            "station": "Hommerich",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.00879113678366,
+            "lon": 7.280244388459051,
+            "score": 80,
+            "geohash": "u1j4jtv"
+        },
+        {
+            "station": "Honsdorf",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.00476853348884,
+            "lon": 6.181673912503352,
+            "score": 10,
+            "geohash": "u1h6htj"
+        },
+        {
+            "station": "Iserlohn",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.400926219842646,
+            "lon": 7.700623420757781,
+            "score": 35,
+            "geohash": "u1jkrjr"
+        },
+        {
+            "station": "Iserlohn-Hennen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.448199588149684,
+            "lon": 7.662296679364826,
+            "score": 39,
+            "geohash": "u1jkwmg"
+        },
+        {
+            "station": "Isselburg",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.832528786699974,
+            "lon": 6.471508413442976,
+            "score": 5,
+            "geohash": "u1hwg7b"
+        },
+        {
+            "station": "Juelich-Stadion",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.92489973574916,
+            "lon": 6.349229667648784,
+            "score": 79,
+            "geohash": "u1h98qx"
+        },
+        {
+            "station": "Kall-Sportplatz",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.54492265487833,
+            "lon": 6.553791586178765,
+            "score": 5,
+            "geohash": "u0uxt1k"
+        },
+        {
+            "station": "Kapellen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.57001136653752,
+            "lon": 6.3597265358509105,
+            "score": 2,
+            "geohash": "u1ht2sp"
+        },
+        {
+            "station": "Kesseler_3",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.662974978432736,
+            "lon": 8.089384629819186,
+            "score": 34,
+            "geohash": "u1jvbhf"
+        },
+        {
+            "station": "Kickenbach",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.108873815451524,
+            "lon": 8.100402567077,
+            "score": 39,
+            "geohash": "u1jfb24"
+        },
+        {
+            "station": "Kirchberg1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.892048843818046,
+            "lon": 6.358633361224554,
+            "score": 98,
+            "geohash": "u1h988w"
+        },
+        {
+            "station": "Kirchberg2",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.8923219124228,
+            "lon": 6.359570738052252,
+            "score": 29,
+            "geohash": "u1h988w"
+        },
+        {
+            "station": "KornelimuensterW",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.72815144082268,
+            "lon": 6.183308076855246,
+            "score": 11,
+            "geohash": "u1h2sdy"
+        },
+        {
+            "station": "Kreuztal",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.95875529669758,
+            "lon": 7.9951595697543905,
+            "score": 38,
+            "geohash": "u1j9vuv"
+        },
+        {
+            "station": "Lamersdorf",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.85226123758196,
+            "lon": 6.354474407535399,
+            "score": 43,
+            "geohash": "u1h9297"
+        },
+        {
+            "station": "Langenich",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.864332672535255,
+            "lon": 6.67266257759969,
+            "score": 66,
+            "geohash": "u1h9rgd"
+        },
+        {
+            "station": "Legden",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.03984441752102,
+            "lon": 7.0820707740054285,
+            "score": 37,
+            "geohash": "u1m011t"
+        },
+        {
+            "station": "Lehen_2",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.261246364946786,
+            "lon": 7.739348230263985,
+            "score": 13,
+            "geohash": "u1m921g"
+        },
+        {
+            "station": "Liemergrund",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.029734828288916,
+            "lon": 8.850229643990811,
+            "score": 86,
+            "geohash": "u1nrcrs"
+        },
+        {
+            "station": "Lindemannsheide_Alt",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.054935424271555,
+            "lon": 8.766693419182559,
+            "score": 70,
+            "geohash": "u1q0pkr"
+        },
+        {
+            "station": "Lindemannsheide_neu",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.05335365076975,
+            "lon": 8.771601848511661,
+            "score": 5,
+            "geohash": "u1q0ps5"
+        },
+        {
+            "station": "Linnich",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.98071793077164,
+            "lon": 6.27492167579102,
+            "score": 46,
+            "geohash": "u1h6nbc"
+        },
+        {
+            "station": "Lippspringe1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.78050601919228,
+            "lon": 8.821470420264854,
+            "score": 32,
+            "geohash": "u1nq8dr"
+        },
+        {
+            "station": "Lippstadt-Nordumflut",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.676866753904726,
+            "lon": 8.334600034515228,
+            "score": 70,
+            "geohash": "u1jvvxm"
+        },
+        {
+            "station": "Loehne",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.19788043134896,
+            "lon": 8.710157073484845,
+            "score": 1,
+            "geohash": "u1q0ynq"
+        },
+        {
+            "station": "Lohmar",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.84161817423483,
+            "lon": 7.201329467301258,
+            "score": 32,
+            "geohash": "u1j15z7"
+        },
+        {
+            "station": "Lutum",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.984190776417776,
+            "lon": 7.221780786979506,
+            "score": 15,
+            "geohash": "u1jpsr6"
+        },
+        {
+            "station": "Marienfeld_W",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.948373086560785,
+            "lon": 8.255409218579683,
+            "score": 5,
+            "geohash": "u1jzebg"
+        },
+        {
+            "station": "Menden_1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.79789824971024,
+            "lon": 7.159144164798521,
+            "score": 73,
+            "geohash": "u1j0fzm"
+        },
+        {
+            "station": "Menden_Sauerland",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.44786268104691,
+            "lon": 7.7771895836449065,
+            "score": 55,
+            "geohash": "u1js8vz"
+        },
+        {
+            "station": "Meschede",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.34785735079018,
+            "lon": 8.280216960298604,
+            "score": 63,
+            "geohash": "u1juh7t"
+        },
+        {
+            "station": "Meschede4",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.34205371276374,
+            "lon": 8.2840120427679,
+            "score": 15,
+            "geohash": "u1juhd8"
+        },
+        {
+            "station": "Moeschemer-Muehle",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.57155800586501,
+            "lon": 6.760356572447533,
+            "score": 16,
+            "geohash": "u0uz9y6"
+        },
+        {
+            "station": "Morenhoven",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.66472748623645,
+            "lon": 6.952757162527036,
+            "score": 92,
+            "geohash": "u1hbnpn"
+        },
+        {
+            "station": "Mueschede",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.40757062854393,
+            "lon": 7.991909158241218,
+            "score": 83,
+            "geohash": "u1jsmy7"
+        },
+        {
+            "station": "Muesse",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.04952337926774,
+            "lon": 8.283966578168009,
+            "score": 84,
+            "geohash": "u1jfkt2"
+        },
+        {
+            "station": "Mulartshuette",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.69080690677434,
+            "lon": 6.209973805937742,
+            "score": 56,
+            "geohash": "u1h2m7c"
+        },
+        {
+            "station": "Neheim3",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.455453076634996,
+            "lon": 7.953850154207988,
+            "score": 15,
+            "geohash": "u1jsszp"
+        },
+        {
+            "station": "Neubrueck",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.1321658692252,
+            "lon": 6.648826170411586,
+            "score": 35,
+            "geohash": "u1hdzk3"
+        },
+        {
+            "station": "Neuhaus1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.74489050522534,
+            "lon": 8.731242898178847,
+            "score": 56,
+            "geohash": "u1nnqev"
+        },
+        {
+            "station": "Neuhaus2",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.73412967547353,
+            "lon": 8.70935362987391,
+            "score": 72,
+            "geohash": "u1nnq1v"
+        },
+        {
+            "station": "Neuhaus3",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.76581793140484,
+            "lon": 8.717830331258014,
+            "score": 69,
+            "geohash": "u1nnqrs"
+        },
+        {
+            "station": "Neuhof",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.383099019113565,
+            "lon": 6.7485129563768735,
+            "score": 64,
+            "geohash": "u0uy9ef"
+        },
+        {
+            "station": "Niederdielfen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.863177508191505,
+            "lon": 8.080101558796306,
+            "score": 43,
+            "geohash": "u1j9rg7"
+        },
+        {
+            "station": "Niederpleis",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.77350517074486,
+            "lon": 7.2157162643766135,
+            "score": 57,
+            "geohash": "u1j0u5n"
+        },
+        {
+            "station": "Niederschelden",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.845106196956465,
+            "lon": 7.966736876101265,
+            "score": 93,
+            "geohash": "u1j9m21"
+        },
+        {
+            "station": "Nordborchen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.663379871082114,
+            "lon": 8.718336967409213,
+            "score": 27,
+            "geohash": "u1njymh"
+        },
+        {
+            "station": "Oberahle",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.18868652355258,
+            "lon": 8.514272211948901,
+            "score": 16,
+            "geohash": "u1q0csx"
+        },
+        {
+            "station": "Oberkirchen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.15859952960956,
+            "lon": 8.37444417852873,
+            "score": 53,
+            "geohash": "u1jgn94"
+        },
+        {
+            "station": "Oedt",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.321831677145134,
+            "lon": 6.372072484276888,
+            "score": 83,
+            "geohash": "u1hecnb"
+        },
+        {
+            "station": "Oeventrop",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.398053091662,
+            "lon": 8.13063547254622,
+            "score": 67,
+            "geohash": "u1ju3h8"
+        },
+        {
+            "station": "Olfen-Fuecht.Muehle",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.721551891670174,
+            "lon": 7.350364801648616,
+            "score": 3,
+            "geohash": "u1jnpr8"
+        },
+        {
+            "station": "Olsberg",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.351404645845484,
+            "lon": 8.488023991800489,
+            "score": 40,
+            "geohash": "u1nh1hh"
+        },
+        {
+            "station": "Opladen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.07021472883297,
+            "lon": 6.994166199329365,
+            "score": 17,
+            "geohash": "u1hfx1h"
+        },
+        {
+            "station": "Ottbergen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.708432579937806,
+            "lon": 9.321569099546378,
+            "score": 45,
+            "geohash": "u1nwhj5"
+        },
+        {
+            "station": "Overhagen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.64818745578725,
+            "lon": 8.327402885243247,
+            "score": 94,
+            "geohash": "u1jvv6r"
+        },
+        {
+            "station": "Paderborn1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.72248072735415,
+            "lon": 8.750152726314955,
+            "score": 87,
+            "geohash": "u1nnppg"
+        },
+        {
+            "station": "Paderborn2",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.72690069646725,
+            "lon": 8.744206605801049,
+            "score": 9,
+            "geohash": "u1nnqbx"
+        },
+        {
+            "station": "Patzlar",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.76065152522048,
+            "lon": 7.456373925140231,
+            "score": 13,
+            "geohash": "u1jq3wt"
+        },
+        {
+            "station": "Pottenhausen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.01660051521084,
+            "lon": 8.750310002678265,
+            "score": 27,
+            "geohash": "u1npzj7"
+        },
+        {
+            "station": "Randerath",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.01508472782514,
+            "lon": 6.179779054775786,
+            "score": 1,
+            "geohash": "u1h6hx5"
+        },
+        {
+            "station": "Ratingen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.30381184147741,
+            "lon": 6.8120744676674185,
+            "score": 15,
+            "geohash": "u1hgg58"
+        },
+        {
+            "station": "Raumland",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.031445810847934,
+            "lon": 8.386268577241303,
+            "score": 19,
+            "geohash": "u1jfqcf"
+        },
+        {
+            "station": "Rheda",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.85249782181493,
+            "lon": 8.296121658000787,
+            "score": 9,
+            "geohash": "u1jyuz3"
+        },
+        {
+            "station": "Rhedebruegge",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.82770016612945,
+            "lon": 6.752201160275625,
+            "score": 43,
+            "geohash": "u1hycdu"
+        },
+        {
+            "station": "Rodenbeck",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.28222664208751,
+            "lon": 8.878243231158327,
+            "score": 69,
+            "geohash": "u1q36j8"
+        },
+        {
+            "station": "Roenkhausen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.21624624830273,
+            "lon": 7.9545845687630665,
+            "score": 52,
+            "geohash": "u1jem58"
+        },
+        {
+            "station": "Roxeler",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.95372540775891,
+            "lon": 7.562811402633493,
+            "score": 25,
+            "geohash": "u1jrs1g"
+        },
+        {
+            "station": "Schermbeck_1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.67371784679412,
+            "lon": 6.851364082052098,
+            "score": 90,
+            "geohash": "u1hvgyv"
+        },
+        {
+            "station": "Schieder",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.91407161958548,
+            "lon": 9.144878245335413,
+            "score": 97,
+            "geohash": "u1nx24e"
+        },
+        {
+            "station": "Schieder-Nessenberg",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.91091502577848,
+            "lon": 9.130097787505825,
+            "score": 82,
+            "geohash": "u1nrrf0"
+        },
+        {
+            "station": "Schieder-Stausee",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.934960222329465,
+            "lon": 9.193338295010186,
+            "score": 92,
+            "geohash": "u1nx3nq"
+        },
+        {
+            "station": "Schleiden",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.5248186890655,
+            "lon": 6.468393094222972,
+            "score": 19,
+            "geohash": "u0ux7jy"
+        },
+        {
+            "station": "Schwaney",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.71660752026995,
+            "lon": 8.923874393080746,
+            "score": 66,
+            "geohash": "u1nq5nd"
+        },
+        {
+            "station": "Selhausen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.859641103581424,
+            "lon": 6.4335690069973355,
+            "score": 63,
+            "geohash": "u1h966s"
+        },
+        {
+            "station": "Selm-Ondrup",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.707587257154145,
+            "lon": 7.49154272987144,
+            "score": 84,
+            "geohash": "u1jq4mp"
+        },
+        {
+            "station": "Senden-Schoelling",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.839948538306466,
+            "lon": 7.465711323376256,
+            "score": 33,
+            "geohash": "u1jqcvh"
+        },
+        {
+            "station": "Siegburg_Kald.",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.79765012752064,
+            "lon": 7.257142394414824,
+            "score": 92,
+            "geohash": "u1j0vpk"
+        },
+        {
+            "station": "Stadtlohn",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.995671381768396,
+            "lon": 6.905583254598165,
+            "score": 41,
+            "geohash": "u1hzv1s"
+        },
+        {
+            "station": "Stadtlohn Schanzring",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.9947668279101,
+            "lon": 6.910345242847805,
+            "score": 3,
+            "geohash": "u1hzv1r"
+        },
+        {
+            "station": "Stah",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.097892715984244,
+            "lon": 6.104515159092543,
+            "score": 13,
+            "geohash": "u1h6dyj"
+        },
+        {
+            "station": "Steinhorst",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.81831692409682,
+            "lon": 8.53375943295241,
+            "score": 92,
+            "geohash": "u1nnf1n"
+        },
+        {
+            "station": "Stephansohl",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.222982936689874,
+            "lon": 7.565210769857195,
+            "score": 74,
+            "geohash": "u1j7khu"
+        },
+        {
+            "station": "Sueddinker",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.631427652713086,
+            "lon": 7.932005892058633,
+            "score": 88,
+            "geohash": "u1jtsrp"
+        },
+        {
+            "station": "Suesterseel",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.99654286407106,
+            "lon": 5.930061537957682,
+            "score": 91,
+            "geohash": "u1h4ngw"
+        },
+        {
+            "station": "Upsprunge",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.65650797746167,
+            "lon": 8.602455265069997,
+            "score": 17,
+            "geohash": "u1njggb"
+        },
+        {
+            "station": "Veert",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.51881931053212,
+            "lon": 6.3099125968864325,
+            "score": 78,
+            "geohash": "u1hmpdd"
+        },
+        {
+            "station": "Versmold_W",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.011978679466026,
+            "lon": 8.16075135758032,
+            "score": 89,
+            "geohash": "u1jzcsq"
+        },
+        {
+            "station": "Villigst",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.435986288455815,
+            "lon": 7.581091579641015,
+            "score": 55,
+            "geohash": "u1jkse8"
+        },
+        {
+            "station": "Vossheide",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.016210835971464,
+            "lon": 8.959621566600187,
+            "score": 97,
+            "geohash": "u1nrgvk"
+        },
+        {
+            "station": "Weeze",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.62629809535388,
+            "lon": 6.212519352429427,
+            "score": 43,
+            "geohash": "u1hmtq7"
+        },
+        {
+            "station": "Weidenau2",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.89566515337991,
+            "lon": 8.023180006627584,
+            "score": 50,
+            "geohash": "u1j9w96"
+        },
+        {
+            "station": "Weilerswist",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.766056189741995,
+            "lon": 6.846014097823572,
+            "score": 28,
+            "geohash": "u1hbgc9"
+        },
+        {
+            "station": "Weine",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.54201122292654,
+            "lon": 8.525701445715443,
+            "score": 13,
+            "geohash": "u1nj4nb"
+        },
+        {
+            "station": "Welda",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.45364307118869,
+            "lon": 9.115452490337306,
+            "score": 30,
+            "geohash": "u1nkxqv"
+        },
+        {
+            "station": "Wenholthausen",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.29427090643478,
+            "lon": 8.174921593502372,
+            "score": 18,
+            "geohash": "u1jgf1b"
+        },
+        {
+            "station": "Westheim",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.49236903640815,
+            "lon": 8.914107916562989,
+            "score": 10,
+            "geohash": "u1nkfvg"
+        },
+        {
+            "station": "Wetter_Wengern_1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.400867632588664,
+            "lon": 7.341831421633536,
+            "score": 0,
+            "geohash": "u1jhrj4"
+        },
+        {
+            "station": "Wettringen_B70",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.21494000245228,
+            "lon": 7.323742161666137,
+            "score": 12,
+            "geohash": "u1m1n9k"
+        },
+        {
+            "station": "Wolbeck",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.90298964179641,
+            "lon": 7.781571019217169,
+            "score": 54,
+            "geohash": "u1jx30d"
+        },
+        {
+            "station": "Zerkall",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.69271598154994,
+            "lon": 6.452309287742176,
+            "score": 49,
+            "geohash": "u1h86u6"
+        },
+        {
+            "station": "Bilk",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.23905277052919,
+            "lon": 7.2928234320495084,
+            "score": 38,
+            "geohash": "u1m1jvy"
+        },
+        {
+            "station": "Erkrath",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.226116783409346,
+            "lon": 6.917011657764416,
+            "score": 95,
+            "geohash": "u1hgmmk"
+        },
+        {
+            "station": "Glueder",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.1340937501414,
+            "lon": 7.121833056627191,
+            "score": 75,
+            "geohash": "u1j4fh9"
+        },
+        {
+            "station": "Kluserbruecke",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.255562458675605,
+            "lon": 7.158433991774364,
+            "score": 96,
+            "geohash": "u1j5dfu"
+        },
+        {
+            "station": "Manfort",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.03825274570307,
+            "lon": 7.007372521743628,
+            "score": 95,
+            "geohash": "u1hfr7n"
+        },
+        {
+            "station": "Balve_Helle",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.344782170204496,
+            "lon": 7.878606885977582,
+            "score": 81,
+            "geohash": "u1js571"
+        },
+        {
+            "station": "Bierde",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.370181699966274,
+            "lon": 9.041875458404215,
+            "score": 30,
+            "geohash": "u1q3vv8"
+        },
+        {
+            "station": "Blomberg",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.9248306100459,
+            "lon": 9.105794388862297,
+            "score": 81,
+            "geohash": "u1nrrhw"
+        },
+        {
+            "station": "Brake",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.07052554543447,
+            "lon": 8.618441039931712,
+            "score": 12,
+            "geohash": "u1q0hp5"
+        },
+        {
+            "station": "Burg_Veynau",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.63802835099924,
+            "lon": 6.718260273076937,
+            "score": 96,
+            "geohash": "u1hb0fk"
+        },
+        {
+            "station": "Cappel",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.695206673396086,
+            "lon": 8.297045243902875,
+            "score": 69,
+            "geohash": "u1jyhfc"
+        },
+        {
+            "station": "Darfeld",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.05652143379028,
+            "lon": 7.266986832867532,
+            "score": 46,
+            "geohash": "u1m0jke"
+        },
+        {
+            "station": "Espeln",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.83074493002276,
+            "lon": 8.595002191525383,
+            "score": 42,
+            "geohash": "u1nnge6"
+        },
+        {
+            "station": "Essen-Hespertal",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.36824182191576,
+            "lon": 7.0439517635373,
+            "score": 64,
+            "geohash": "u1jh0r3"
+        },
+        {
+            "station": "Hagen-Maecking2",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.3211728378913,
+            "lon": 7.48166547750329,
+            "score": 30,
+            "geohash": "u1j7fnx"
+        },
+        {
+            "station": "RurbergVA",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.61548711091825,
+            "lon": 6.353918481607874,
+            "score": 41,
+            "geohash": "u0uxbw6"
+        },
+        {
+            "station": "Hemer_Hessufer",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.37986915287127,
+            "lon": 7.764934653425764,
+            "score": 5,
+            "geohash": "u1js29q"
+        },
+        {
+            "station": "Hemer_Uhlenhof",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.38074609306151,
+            "lon": 7.769653095432779,
+            "score": 77,
+            "geohash": "u1js2c9"
+        },
+        {
+            "station": "Hilden_1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.15967223178529,
+            "lon": 6.924554663581825,
+            "score": 22,
+            "geohash": "u1hgj96"
+        },
+        {
+            "station": "Hopsten",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.37360689768141,
+            "lon": 7.599576842451836,
+            "score": 20,
+            "geohash": "u1m3uym"
+        },
+        {
+            "station": "Landesgrenze",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.22831576618679,
+            "lon": 6.087850734106353,
+            "score": 37,
+            "geohash": "u1h76tc"
+        },
+        {
+            "station": "Lippstadt2",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.672500820669775,
+            "lon": 8.33213325619416,
+            "score": 30,
+            "geohash": "u1jvvwe"
+        },
+        {
+            "station": "Menden_Oberroedingh",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.39890358306666,
+            "lon": 7.84220779277779,
+            "score": 97,
+            "geohash": "u1js6ky"
+        },
+        {
+            "station": "Molzmuehle",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.161874361491364,
+            "lon": 6.273280073653399,
+            "score": 24,
+            "geohash": "u1h7nc8"
+        },
+        {
+            "station": "Niederntudorf",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.641022101172545,
+            "lon": 8.681263495426473,
+            "score": 88,
+            "geohash": "u1njv8c"
+        },
+        {
+            "station": "Pannenmuehle",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.19927567201007,
+            "lon": 6.2297690990984504,
+            "score": 59,
+            "geohash": "u1h7mb8"
+        },
+        {
+            "station": "Sendenhorst",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.83345809600926,
+            "lon": 7.881196679833992,
+            "score": 2,
+            "geohash": "u1jwg7f"
+        },
+        {
+            "station": "Uchtdorf",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.159867395899134,
+            "lon": 9.099187612850764,
+            "score": 13,
+            "geohash": "u1q2xp3"
+        },
+        {
+            "station": "Vossheide_1",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 52.010159684097886,
+            "lon": 8.958898521876586,
+            "score": 64,
+            "geohash": "u1nrgu5"
+        },
+        {
+            "station": "Avenwedde",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.910486475651304,
+            "lon": 8.496737602221808,
+            "score": 35,
+            "geohash": "u1np365"
+        },
+        {
+            "station": "Geisbach",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 50.76584417340975,
+            "lon": 7.30010250049604,
+            "score": 15,
+            "geohash": "u1j0y1e"
+        },
+        {
+            "station": "Multhaeupter Hammer",
+            "recordTime": "2018-07-17T09:00",
+            "lat": 51.49051900058898,
+            "lon": 8.593746017510478,
+            "score": 14,
+            "geohash": "u1nhgt9"
+        }
+    ]
+}
