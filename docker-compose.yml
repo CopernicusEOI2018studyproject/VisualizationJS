@@ -1,0 +1,59 @@
+version: '0.1'
+
+services:
+    angular: # name of the first service
+        build: angular-client # specify the directory of the Dockerfile
+        ports:
+            - "4200:4200" # specify port forewarding
+        # links:
+        #     - express # link to express
+
+    express: #name of the second service
+        build: express-server # specify the directory of the Dockerfile
+        ports:
+            - "4300:4300" #specify ports forewarding
+        # links:
+        #     - angular # link to angular
+
+    # database: # name of the third service
+    #     image: mongo # specify image to build container from
+    #     ports:
+    #         - "27017:27017" # specify port forewarding
+
+
+# services:
+    
+#     # # Build the container using the client Dockerfile
+#     # client:
+#     #     build: ./client
+#     #     # This line maps the contents of the client folder into the container.
+#     #     volumes:
+#     #         - ./client:/usr/src/app
+
+#     # pegelonline worker configuration
+#     workerPegel:
+#         build: 'workerPegel'
+
+#     # hygon worker configuration
+#     workerHygon:
+#         build: 'workerPegel'
+
+#     # Build the container using the nginx Dockerfile
+#     nginx:
+#         build: ./nginx
+#         # Map Nginx port 80 to the local machine's port 80
+#         ports:
+#         - "80:80"
+#         # Link the client container so that Nginx will have access to it
+#         links:
+#         - client
+
+#     visualization-name:
+#         image: 'visualization-name'
+#         # build: '.'
+#         depends-on:
+#             - connector
+#             - workerPegel
+#             - workerHygon
+#         ports:
+#             - 3000:80

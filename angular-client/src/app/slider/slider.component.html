@@ -1,11 +1,10 @@
-
 <div>
 
   <mat-card class="dashboard-card">
 
     <mat-card-content class="dashboard-card-content">
-      <mat-slider class="slider-margin" [disabled]="disabled" [invert]="invert" [max]="max" [min]="min" [step]="step" [thumbLabel]="thumbLabel"
-        [tickInterval]="tickInterval" [(ngModel)]="fileNameIdx" [vertical]="vertical">
+      <mat-slider class="slider-margin" [disabled]="disabledSelection" [invert]="invert" [max]="max" [min]="min" [step]="step"
+        [thumbLabel]="thumbLabel" [(ngModel)]="fileNameIdx" [vertical]="vertical">
       </mat-slider>
 
       <mat-menu #fileMenu="matMenu">
@@ -16,6 +15,7 @@
       <button class="filebutton" mat-icon-button [matMenuTriggerFor]="fileMenu">{{ dateStrings[fileNameIdx] }}</button>
 
       <button mat-fab color="primary" (click)="startRequest(this)">Submit</button>
+      <button mat-raised-button color="basic" (click)="getAllFileNames()">Update slider</button>
     </mat-card-content>
   </mat-card>
 </div>
@@ -26,7 +26,8 @@
     <mat-card-content class="dashboard-card-content">
       <form class="mat-container" [formGroup]="options">
         <mat-form-field>
-          <input matInput placeholder="Highlight marker with score above ..." formControlName="highlight" value="50" type="number" max="100" min="0" class="mat-right-align">
+          <input matInput placeholder="Highlight marker with score above ..." formControlName="highlight" value="50" type="number"
+            max="100" min="0" class="mat-right-align">
         </mat-form-field>
         <button mat-fab color="primary" (click)="changeHighlighting(this)">Update</button>
       </form>

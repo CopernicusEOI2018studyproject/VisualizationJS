@@ -15,23 +15,23 @@ export class AppComponent {
   public fileName;
   public stationsSelection;
 
-  private highlight;
+  public highlight;
 
   constructor(
     private cdr: ChangeDetectorRef,
   ) { }
 
-  private changeFilename(fileName: string) {
+  public changeFilename(fileName: string) {
     this.fileName = fileName;
     // this.cdr.detectChanges();
   }
 
-  private changeSelection(selection: string) {
+  public changeSelection(selection: string) {
     this.stationsSelection = selection;
     // this.cdr.detectChanges();
   }
 
-  private changeHighlighting(highlight: number) {
+  public changeHighlighting(highlight: number) {
     this.highlight = highlight;
   }
 }

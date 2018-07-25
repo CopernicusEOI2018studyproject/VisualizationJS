@@ -11,9 +11,14 @@ const colors = require('colors')
 const cors = require('cors')
 
 const app = express();
-const datasetPath = './../datasets';
 
+// TODO: change for docker
+const datasetPath = './../datasets';
 app.use(express.static("./../datasets"));
+
+// TODO: change for local
+// const datasetPath = './datasets';
+// app.use(express.static("./datasets"));
 
 // enable processing of the received post content
 app.use(bodyParser.urlencoded({extended: true})); // to enable processing of the received post content

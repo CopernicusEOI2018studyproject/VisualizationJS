@@ -37,9 +37,9 @@ export class SliderComponent implements OnInit {
   public selectionList = ['Biggest', '8hours'];
   public stationsSelection = 'Biggest';
   public selectedFileIndex;
-  private options: FormGroup;
+  public options: FormGroup;
 
-  private dateStrings = ["no data selected"];
+  public dateStrings = ["no data selected"];
   private selectedFile;
   private original = [];
 
@@ -86,13 +86,14 @@ export class SliderComponent implements OnInit {
               this.selectedFile = this.fileNames[this.fileNameIdx];
               this.fileNames = res;
               this.dateStrings = [];
+              console.log(res);
               this.fileNames.forEach((el) => {
                 this.dateStrings.push(this.parseDate(el + ':00:00Z'));
               })
               this.updateFilenamelist();
-              this.disabledSelection = true;
-            } else {
               this.disabledSelection = false;
+            } else {
+              this.disabledSelection = true;
             }
           },
           err => {
@@ -129,7 +130,7 @@ export class SliderComponent implements OnInit {
     }
   }
 
-  private startRequest(data) {
+  public startRequest(data) {
     if (this.selectedFileIndex !== this.fileNameIdx) {
       this.selectedFileIndex = this.fileNameIdx;
       this.snackBar.openFromComponent(CustomsnackbarComponent, {
@@ -137,8 +138,9 @@ export class SliderComponent implements OnInit {
         panelClass: ['snack-bar-default'],
         duration: 3000,
       });
-      // this.parseDate(this.fileNames[this.fileNameIdx] + ':00:00Z');
-      this.disabledSelection = true;
+      
+      // this.disabledSelection = true;
+      // TODO: disable selection as long as the new dataset is not loaded to the map
       this.onChangeFilename.emit(this.original[this.fileNameIdx]);
     } else {
       this.snackBar.openFromComponent(CustomsnackbarComponent, {
@@ -149,7 +151,7 @@ export class SliderComponent implements OnInit {
     }
   }
 
-  private changeSelection(selection) {
+  public changeSelection(selection) {
     this.onChangeSelection.emit(selection);
   }
 
@@ -159,7 +161,7 @@ export class SliderComponent implements OnInit {
     return output;
   }
 
-  private changeHighlighting(value) {
+  public changeHighlighting(value) {
     if (this.highlight === this.options.value.highlight) {
       this.snackBar.openFromComponent(CustomsnackbarComponent, {
         data: 'No update needed.',
